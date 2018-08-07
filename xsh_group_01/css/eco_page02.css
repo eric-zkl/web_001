@@ -1,0 +1,110 @@
+#eco_page02Title01 h2 {
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+
+.eco_page02Title02_img1_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.eco_page02Title02_img1_01:hover .eco_page02Title02_img1_02 {
+    opacity: 0.6;
+}
+
+.eco_page02Title02_img2_02 {
+    background-color: black;
+    opacity: 0;
+}
+.eco_page02Title02_img2_01:hover .eco_page02Title02_img2_02 {
+    opacity: 0.6;
+}
+
+.eco_page02Title02_img3_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.eco_page02Title02_img3_01:hover .eco_page02Title02_img3_02 {
+    opacity: 0.6;
+}
+
+.eco_page02Title02_img4_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.eco_page02Title02_img4_01:hover .eco_page02Title02_img4_02 {
+    opacity: 0.6;
+}
+
+.eco_page02Title02_img5_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.eco_page02Title02_img5_01:hover .eco_page02Title02_img5_02 {
+    opacity: 0.6;
+}
+
+.eco_page02Title02_img6_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.eco_page02Title02_img6_01:hover .eco_page02Title02_img6_02 {
+    opacity: 0.6;
+}
+
+.eco_page02Title02_word1 {
+    display: inline-block;
+    transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+}
+
+.eco_page02Title02_img1_01:hover .eco_page02Title02_word1 {
+
+    transform: translateY(-500%);
+    animation-play-state: running;
+}
+
+.eco_page02Title02_img2_01:hover .eco_page02Title02_word1 {
+
+    transform: translateY(-500%);
+    animation-play-state: running;
+}
+
+.eco_page02Title02_img3_01:hover .eco_page02Title02_word1 {
+
+    transform: translateY(-500%);
+    animation-play-state: running;
+}
+
+.eco_page02Title02_img4_01:hover .eco_page02Title02_word1 {
+
+    transform: translateY(-500%);
+    animation-play-state: running;
+}
+
+.eco_page02Title02_img5_01:hover .eco_page02Title02_word1 {
+
+    transform: translateY(-500%);
+    animation-play-state: running;
+}
+
+.eco_page02Title02_img6_01:hover .eco_page02Title02_word1 {
+    transform: translateY(-500%);
+    animation-play-state: running;
+}
+.container .col-md-3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.container img{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.word{
+    overflow: hidden;
+}
