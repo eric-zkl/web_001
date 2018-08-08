@@ -1,0 +1,120 @@
+#sci_page03title01 h2 {
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+
+.sci_page03title02_img1_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.sci_page03title02_img1_01:hover .sci_page03title02_img1_02 {
+    opacity: 0.6;
+}
+
+.sci_page03title02_img2_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.sci_page03title02_img2_01:hover .sci_page03title02_img2_02 {
+    opacity: 0.6;
+}
+
+.sci_page03title02_img3_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.sci_page03title02_img3_01:hover .sci_page03title02_img3_02 {
+    opacity: 0.6;
+}
+
+.sci_page03title02_img4_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.sci_page03title02_img4_01:hover .sci_page03title02_img4_02 {
+    opacity: 0.6;
+}
+
+.sci_page03title02_img5_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.sci_page03title02_img5_01:hover .sci_page03title02_img5_02 {
+    opacity: 0.6;
+}
+
+.sci_page03title02_img6_02 {
+    background-color: black;
+    opacity: 0;
+}
+
+.sci_page03title02_img6_01:hover .sci_page03title02_img6_02 {
+    opacity: 0.6;
+}
+
+.sci_page03title02_word {
+    display: inline-block;
+    transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+}
+
+.sci_page03title02_img1_01:hover .sci_page03title02_word {
+
+    transform: translateY(-300px);
+    animation-play-state: running;
+}
+
+.sci_page03title02_img2_01:hover .sci_page03title02_word {
+
+    transform: translateY(-300px);
+    animation-play-state: running;
+}
+
+.sci_page03title02_img3_01:hover .sci_page03title02_word {
+
+    transform: translateY(-300px);
+    animation-play-state: running;
+}
+
+.sci_page03title02_img4_01:hover .sci_page03title02_word {
+
+    transform: translateY(-300px);
+    animation-play-state: running;
+}
+
+.sci_page03title02_img5_01:hover .sci_page03title02_word {
+
+    transform: translateY(-300px);
+    animation-play-state: running;
+}
+
+.sci_page03title02_img6_01:hover .sci_page03title02_word {
+    transform: translateY(-300px);
+    animation-play-state: running;
+}
+
+.container .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sci_page03title02_box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    transform: translateY(234%);
+}
+
+.sci_page03title02_word {
+    position: absolute;
+    top: 300px;
+}
