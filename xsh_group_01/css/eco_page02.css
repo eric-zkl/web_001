@@ -16,6 +16,7 @@
     background-color: black;
     opacity: 0;
 }
+
 .eco_page02Title02_img2_01:hover .eco_page02Title02_img2_02 {
     opacity: 0.6;
 }
@@ -56,55 +57,63 @@
     opacity: 0.6;
 }
 
-.eco_page02Title02_word1 {
+.eco_page02Title02_word {
     display: inline-block;
     transition: all 300ms ease-in;
     -moz-transition: all 300ms ease-in;
     -webkit-transition: all 300ms ease-in;
 }
 
-.eco_page02Title02_img1_01:hover .eco_page02Title02_word1 {
+.eco_page02Title02_img1_01:hover .eco_page02Title02_word {
 
-    transform: translateY(-500%);
+    transform: translateY(-300px);
     animation-play-state: running;
 }
 
-.eco_page02Title02_img2_01:hover .eco_page02Title02_word1 {
+.eco_page02Title02_img2_01:hover .eco_page02Title02_word {
 
-    transform: translateY(-500%);
+    transform: translateY(-300px);
     animation-play-state: running;
 }
 
-.eco_page02Title02_img3_01:hover .eco_page02Title02_word1 {
+.eco_page02Title02_img3_01:hover .eco_page02Title02_word {
 
-    transform: translateY(-500%);
+    transform: translateY(-300px);
     animation-play-state: running;
 }
 
-.eco_page02Title02_img4_01:hover .eco_page02Title02_word1 {
+.eco_page02Title02_img4_01:hover .eco_page02Title02_word {
 
-    transform: translateY(-500%);
+    transform: translateY(-300px);
     animation-play-state: running;
 }
 
-.eco_page02Title02_img5_01:hover .eco_page02Title02_word1 {
+.eco_page02Title02_img5_01:hover .eco_page02Title02_word {
 
-    transform: translateY(-500%);
+    transform: translateY(-300px);
     animation-play-state: running;
 }
 
-.eco_page02Title02_img6_01:hover .eco_page02Title02_word1 {
-    transform: translateY(-500%);
+.eco_page02Title02_img6_01:hover .eco_page02Title02_word {
+    transform: translateY(-300px);
     animation-play-state: running;
 }
-.container .col-md-3{
+
+.container .col-md-4 {
     padding-left: 0px;
     padding-right: 0px;
 }
-.container img{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.word{
+
+.box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
+}
+
+.eco_page02Title02_word {
+    position: absolute;
+    top: 300px;
 }
