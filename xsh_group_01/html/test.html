@@ -1,55 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <style rel="stylesheet">
-        .box1{
-            width: 400px;
-            height: 600px;
-            border: 1px solid;
-            margin: 50px auto;
-            background: -webkit-linear-gradient( #ff7399,#ff1313);
-            color: #ffffff;
-        }
-        .logo{
-            height: 50px;
-        }
-        .box2{
-            margin: 70px auto;
-            height: 300px;
-            width: 300px;
-            border: 1px solid;
-        }
-        .box2>h3{
-            text-align: center;
-        }
-        .box3{
-            margin: 30px 20px;
-            text-align: center;
-            background-color: rgba(0,0,0,0.5);
-            padding: 5px;
-        }
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 实例 - 简单的轮播（Carousel）插件</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style rel="stylesheet" >
+       .item {
+           background: url("../other/01.jpg") no-repeat;
+           height: 100%;
+       }
     </style>
+
 </head>
 <body>
-    <div class="box1">
-        <img class="logo" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533722585693&di=22a50c393b4ceae1a6fb8079ca518874&imgtype=0&src=http%3A%2F%2Fpic41.photophoto.cn%2F20161109%2F0017029438757724_b.jpg">
-        <div class="box2">
-            <h3>我的账单</h3>
-            <div class="box3">
-                <img src="">
-                <span>消费的金额为:</span>
-            </div>
-            <div class="box3">
-                <img src="">
-                <span>语音通话余额为:</span>
-            </div>
-            <div class="box3">
-                <img src="">
-                <span>手机流量:</span>
-            </div>
+<div class="container">
+<div id="myCarousel" class="carousel slide" style="height: 100%">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="../other/01.jpg">
         </div>
+
     </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+<script>
+    $(".item img").addClass("carousel-inner img-responsive img-rounded");
+</script>
 </body>
 </html>
