@@ -1,4 +1,7 @@
 #sci_page03title01 h1 {
+    width: 90%;
+    position: absolute;
+    left: 5%;
     text-align: center;
     border-bottom: solid 2px black;
     font-size: 30px;
