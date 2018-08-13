@@ -5,14 +5,7 @@
     <title></title>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <style>
-        html,body{ width:100%; height:100%; overflow:hidden;}
-        .row>div{
-            border: 1px solid;
-            height: 100%;
-        }
-        .container,.row{
-            height: 100%;
-        }
+
         /*整合之后的蜂巢*/
         .hex {
             float: left;
@@ -43,12 +36,68 @@
         .hex-row.even {
             margin-left: 96px;
         }
+        .transparent{
+            opacity: 0;
+        }
+        .my_row>*{
+            float: left;
+        }
+        .title{
+            /*background-color: red;*/
+            width: 319px;
+        }
+        .ctn{
+            width: 1226px;
+            margin: 0px auto;
+        }
+        .title .text{
+            height: 106px;
+            border: 1px solid ;
+            margin-bottom: 120px;
+
+        }
+        .title>*{
+            position: relative;
+        }
+        .box_left_top ,.box_left_bottom{
+            left: 50px;
+        }
+        .box_right_top ,.box_right_bottom{
+            right: 50px;
+        }
+        .box_right_center{
+            left: 5px;
+        }
+        [class^="box_left"]{
+            text-align: right;
+            color: red;
+        }
     </style>
+
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <!--<div class="title"></div>-->
+    <div class="ctn">
+        <div class="my_row">
+            <div class="title">
+                <div class="text box_left_top">
+                    <h3>标题</h3>
+                    <p>
+                        标题内容标题内容标题内容
+                    </p>
+                </div>
+                <div class="text box_left_center">
+                    <h3>标题</h3>
+                    <p>
+                        标题内容标题内容标题内容
+                    </p>
+                </div>
+                <div class="text box_left_bottom">
+                    <h3>标题</h3>
+                    <p>
+                        标题内容标题内容标题内容
+                    </p>
+                </div>
+            </div>
             <div class="hexs">
                 <div class="hex-row even">
                     <div class="hex">
@@ -68,7 +117,7 @@
                         <div class="middle"></div>
                         <div class="bottom"></div>
                     </div>
-                    <div class="hex">
+                    <div class="hex transparent" >
                         <div class="top"></div>
                         <div class="middle"></div>
                         <div class="bottom"></div>
@@ -92,7 +141,26 @@
                     </div>
                 </div>
             </div>
-            <div class="title"></div>
+            <div class="title">
+                <div class="text box_right_top">
+                    <h3>标题</h3>
+                    <p>
+                        标题内容标题内容标题内容
+                    </p>
+                </div>
+                <div class="text box_right_center">
+                    <h3>标题</h3>
+                    <p>
+                        标题内容标题内容标题内容
+                    </p>
+                </div>
+                <div class="text box_right_bottom">
+                    <h3>标题</h3>
+                    <p>
+                        标题内容标题内容标题内容
+                    </p>
+                </div>
+            </div>
     </div>
     </div>
 
