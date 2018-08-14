@@ -1,0 +1,85 @@
+/*html {*/
+    /*box-sizing: border-box;*/
+    /*font: 18px PT Mono;*/
+    /*background: antiquewhite;*/
+/*}*/
+
+/**,*/
+/**::before,*/
+/**::after {*/
+    /*box-sizing: inherit;*/
+/*}*/
+
+/*body {*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*height: 100vh;*/
+/*}*/
+
+.section-4 .box {
+    width: 15%;
+    min-width: 150px;
+    display: block;
+    height: 50px;
+    position: relative;
+    border-radius: 5px;
+    background: linear-gradient(to right, #abbd73 35%, #d6e2ad 100%);
+    margin-bottom: 40px;
+    padding: 15px 25px 0 40px;
+    color: darkslategray;
+    box-shadow: 1px 2px 1px -1px #777;
+    transition: background 200ms ease-in-out;
+    text-align:right;
+}
+
+.section-4 .box a{color:#fff;text-decoration:none;}
+
+.section-4 .shadow {
+    position: relative;
+}
+.section-4 .shadow:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 13px;
+    right: 7px;
+    width: 75%;
+    top: 0;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(4deg);
+    transform: rotate(4deg);
+    transition: all 150ms ease-in-out;
+}
+
+.section-4 .box:hover {
+    background: linear-gradient(to right, #abbd73 0%, #abbd73 100%);
+}
+
+.section-4 .shadow:hover::before {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    bottom: 20px;
+    z-index: -10;
+}
+
+.section-4 .circle {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 1px 0px rgba(0, 0, 0, 0.5), inset 0 0 0 25px antiquewhite;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    text-align:right;
+    padding:0 20px 0 0;
+}
+[name="myiframe"]{
+    width: 100%;
+    height: 100%;
+}
+.section-4 .col-xs-8{
+    height: 90vh;
+}
