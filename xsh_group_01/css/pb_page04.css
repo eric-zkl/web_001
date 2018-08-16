@@ -1,0 +1,44 @@
+#word_pagetitle h2{
+    width: 90%;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+}
+.word-page_container{
+    margin: 40px;
+    padding: 40px;
+    display: block;
+    width: auto;
+
+}
+.word_page_news_img img{
+    width: 80px;
+    height: 70px;
+    transition: 1s;
+    /*设置圆形*/
+    border-radius: 50%;
+}
+.word_page_news_img:hover img{
+    border: 5px solid #ffffff;
+    /**/
+    box-shadow: 0px 0px 10px red;
+}
+
+/*.word_page_news_circle:hover{*/
+/*transform: rotate(30deg);*/
+/*border: 10px solid #ffffff;*/
+/*box-shadow: 0px 0px 10px red;*/
+/*}*/
+/*.word_page_news_circle{*/
+/*height: 70px;*/
+/*width: 70px;*/
+/*border-radius: 50%;*/
+/*background: url("../other/wordlogo.png") no-repeat ;*/
+/*background-size: 100%;*/
+/*/!*应用自定义的动画*!/*/
+/*animation: mydiy 5s;*/
+/*}*/
+/*@keyframes mydiy {*/
+/*0% {transform: rotate(0deg)}*/
+/*100% {transform: rotate(360deg)}*/
+/*}*/
