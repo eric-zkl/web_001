@@ -1,0 +1,44 @@
+*{margin:0;padding:0;list-style-type:none;}
+
+.col-grid-left{
+    float: left;
+    background-color: gainsboro;
+    width: 50vw;
+    height: 100%;
+    border-bottom:solid white 30px;
+    text-align: center
+}
+.col-grid-right{
+    float: left;
+    /*padding: 0;*/
+    width: 50vw;
+    height: 100%;
+    position: relative;
+    display: block;
+}
+.col-grid-right img, .col-1-bottom img{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+
+}
+.col-1-bottom{
+    display: none;
+    text-align: center;
+}
+.col-grid-right .col-grid-1{
+
+
+}
+div[class^="col"]{
+    padding: 0px;
+}
+.col-grid .col-grid-left{
+    padding:20px ;
+}
+.col-grid{
+    height: 50vh;
+
+}
