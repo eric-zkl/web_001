@@ -6,7 +6,6 @@
     width: 50vw;
     height: 100%;
     border-bottom:solid white 30px;
-    text-align: center
 }
 .col-grid-right{
     float: left;
@@ -25,13 +24,14 @@
 
 }
 .col-1-bottom{
-    display: none;
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: block;
 }
-.col-grid-right .col-grid-1{
 
-
-}
 div[class^="col"]{
     padding: 0px;
 }
@@ -41,4 +41,145 @@ div[class^="col"]{
 .col-grid{
     height: 50vh;
 
+}
+.col-grid h3 {
+    font-size: 2.5em;
+    color: #13d0ab;
+}
+.col-grid h5 {
+    font-size: 1.7em;
+    line-height: 1.3em;
+    margin: 0.8em 0 0;
+    color: #000;
+    font-weight: 100;
+    font-family: 'Muli', sans-serif;
+}
+.col-grid p {
+    font-size: 0.9em;
+    margin: 1em 0;
+    line-height: 2em;
+    color: #999;
+}
+.col-grid-1{
+    padding:0;
+}
+.col-1-top, .col-1-bottom {
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.col-1-top img, .col-1-bottom img {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.col-1-top {
+    position: relative;
+}
+.col-1-bottom .info-text {
+    display: block;
+    position: relative;
+    padding: 2em;
+    float: left;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.info-text h5{
+    color:#fff;
+    font-size:1.8em;
+    border-bottom:4px double #fff;
+    padding-bottom:0.5em;
+    margin-bottom:0.5em;
+}
+.info-text p{
+    color:#fff;
+    font-size:0.9em;
+    line-height:2em;
+}
+.col-1 {
+    display: block;
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -ms-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+    -webkit-transform-style: preserve3d;
+    -moz-transform-style: preserve3d;
+    -ms-transform-style: preserve3d;
+    -o-transform-style: preserve3d;
+    transform-style: preserve3d;
+}
+.col-1 .col-1-top {
+    z-index: 1;
+}
+.col-1 .col-1-bottom {
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    filter: alpha(opacity=0);
+    -wekbit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+}
+.col-1.bottom .col-1-bottom {
+    -webkit-transform: translateY(100%) rotateX(-90deg);
+    -moz-transform: translateY(100%) rotateX(-90deg);
+    -ms-transform: translateY(100%) rotateX(-90deg);
+    -o-transform: translateY(100%) rotateX(-90deg);
+    transform: translateY(100%) rotateX(-90deg);
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    -o-transform-origin: top;
+    transform-origin: top;
+}
+
+.col-1:hover .col-1-bottom {
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    filter: alpha(opacity=100);
+    -wekbit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+    -webkit-transform: translateX(0) rotateY(0);
+    -moz-transform: translateX(0) rotateY(0);
+    -ms-transform: translateX(0) rotateY(0);
+    -o-transform: translateX(0) rotateY(0);
+    transform: translateX(0) rotateY(0);
 }
