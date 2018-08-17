@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="../css/military_page03/magnific-popup.css"/>
     <link rel="stylesheet" href="../css/military_page03/templatemo-style.css">
     <link rel="stylesheet" href="../css/military_page02.css" type="text/css">
+<!--横向时间轴的css和js文件-->
+    <link rel="stylesheet" href="../css/timeaxis/dasky.min.css">
+
     <!-- Templatemo风格 -->
 </head>
 <body style="padding-top: 50px">
@@ -339,28 +342,141 @@
         </script>
     </div>
     <div class="section section-4">
-        <div class="title">
-            <p class="tit">随便写写意思下</p>
+        <div id="dasky">
+            <div class="step year">
+                <div class="dsk-titlenode">
+                    2016
+                </div>
+                <div class="dsk-content">
+                    <p class="dsk-year-info">
+                        一个时间表滑块。
+                    </p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="dsk-circle">
+                    05/01</div>
+                <h2 class="dsk-circle-title">
+                    daskey时间轴滑块</h2>
+                <div class="dsk-content">
+                    <div class="dsk-info">
+                        <h2>
+                            daskey时间轴滑块
+                        </h2>
+                        <p>适用浏览器：360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗. 不支持IE8及以下浏览器。</p>
+                        <p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+                        <a href="#" class="dsk-link">查看更多</a>
+                    </div>
+                    <img src="../other/timeaxis/1.png" alt="" />
+                </div>
+            </div>
+            <div class="step">
+                <div class="dsk-circle">
+                    12/16</div>
+                <h2 class="dsk-circle-title">
+                    时尚的外观</h2>
+                <div class="dsk-content">
+                    <div class="dsk-info">
+                        <h2>
+                            时尚的外观
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exerc...</p>
+                        <a href="#" class="dsk-link">查看更多</a>
+                    </div>
+                    <img src="../other/timeaxis/2.png" alt="" />
+                </div>
+            </div>
+            <div class="step year">
+                <div class="dsk-titlenode">
+                    2017
+                </div>
+                <div class="dsk-content">
+                    <p class="dsk-year-info">
+                        使用产品的时间轴，展示等！
+                    </p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="dsk-circle">
+                    01/20</div>
+                <h2 class="dsk-circle-title">
+                    回退到旧浏览器</h2>
+                <div class="dsk-content">
+                    <div class="dsk-info">
+                        <h2>
+                            回退到旧浏览器
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exerc...</p>
+                        <a href="#" class="dsk-link">查看更多</a>
+                    </div>
+                    <img src="../other/timeaxis/3.png" alt="" />
+                </div>
+            </div>
+            <div class="step">
+                <div class="dsk-circle">
+                    07/15</div>
+                <h2 class="dsk-circle-title">
+                    CSS3动画</h2>
+                <div class="dsk-content">
+                    <div class="dsk-info">
+                        <h2>
+                            CSS3动画
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exerc...</p>
+                        <a href="#" class="dsk-link">查看更多</a>
+                    </div>
+                    <img src="../other/timeaxis/4.png" alt="" />
+                </div>
+            </div>
+            <div class="step">
+                <div class="dsk-circle">
+                    11/03</div>
+                <h2 class="dsk-circle-title">
+                    容易使用</h2>
+                <div class="dsk-content">
+                    <div class="dsk-info">
+                        <h2>
+                            容易使用</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exerc...</p>
+                        <a href="#" class="dsk-link">查看更多</a>
+                    </div>
+                    <img src="../other/timeaxis/5.png" alt="" />
+                </div>
+            </div>
         </div>
     </div>
-    <div class="section section-5">
-        <div class="title">
-            <p class="tit">随便写写意思下</p>
-        </div>
-    </div>
+
 </section>
 <ul class="section-btn">
     <li class="on"></li>
     <li></li>
     <li></li>
     <li></li>
-    <li></li>
+
 </ul>
 <div class="arrow">&laquo;</div>
 
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/basie.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<!--横向时间轴-->
+<script src="../js/timeaxis/jmpress.min.js"></script>
+<script src="../js/timeaxis/dasky.eval.js"></script>
+<script type="text/javascript">
+    $(function(){$('#dasky').Dasky()});
+</script>
 
 <script type="text/javascript">
     $(document).ready(function(){

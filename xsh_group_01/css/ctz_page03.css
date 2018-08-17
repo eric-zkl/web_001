@@ -1,0 +1,20 @@
+
+.eco_page03title01 h2{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid 2px black;
+}
+.button{
+    background-color: darkorange;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 0px none;
+    border-radius: 5px;
+}
+.chart{
+    border: 1px solid gainsboro;
+    background-color: #a6e1ec;
+}
