@@ -1,16 +1,16 @@
-/*html {*/
+/*html .section-4  {*/
     /*box-sizing: border-box;*/
     /*font: 18px PT Mono;*/
     /*background: antiquewhite;*/
 /*}*/
 
-/**,*/
-/**::before,*/
-/**::after {*/
+/*.section-4 *,*/
+/*.section-4 *::before,*/
+/*.section-4 *::after {*/
     /*box-sizing: inherit;*/
 /*}*/
 
-/*body {*/
+/*body .section-4  {*/
     /*display: flex;*/
     /*align-items: center;*/
     /*justify-content: center;*/
@@ -75,11 +75,4 @@
     display: inline-block;
     text-align:right;
     padding:0 20px 0 0;
-}
-[name="myiframe"]{
-    width: 100%;
-    height: 100%;
-}
-.section-4 .col-xs-8{
-    height: 90vh;
 }

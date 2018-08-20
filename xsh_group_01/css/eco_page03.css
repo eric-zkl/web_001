@@ -10,6 +10,9 @@
 .button{
     background-color: darkorange;
     height: 50px;
+    margin-bottom: 20px;
+    border: 0px none;
+    border-radius: 5px;
 }
 .chart{
     border: 1px solid gainsboro;

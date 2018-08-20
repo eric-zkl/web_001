@@ -1,12 +1,12 @@
 #word_pagetitle h2{
-    width: 90%;
-    position: absolute;
+    /*width: 90%;*/
+    /*position: absolute;*/
     font-size: 20px;
     text-align: center;
 }
 .word-page_container{
-    margin: 40px;
-    padding: 40px;
+    /*margin: 40px;*/
+    /*padding: 40px;*/
     display: block;
     width: auto;
 
@@ -22,6 +22,17 @@
     border: 5px solid #ffffff;
     /**/
     box-shadow: 0px 0px 10px red;
+}
+
+.word_page_news_img{
+    width: 80px;
+    margin: 0px auto;
+}
+.word_page_li {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 40vh;
+    overflow: hidden;
 }
 
 /*.word_page_news_circle:hover{*/

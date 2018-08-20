@@ -22,7 +22,7 @@
         <div class="col-md-4 	col-sm-4 col-xs-4"></div>
         <input type="button" value="第二标题"class="col-md-6 col-sm-6 col-xs-6 button">
         <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-        <input type="button" value="第三标题"class="col-md-6 col-sm-6 col-xs-6 button">
+        <input type="button" onclick="test()" value="第三标题"class="col-md-6 col-sm-6 col-xs-6 button">
         <div class="col-md-4 	col-sm-4 col-xs-4"></div>
         <input type="button" value="第四标题"class="col-md-6 col-sm-6 col-xs-6 button">
     </div>
@@ -51,6 +51,31 @@
                 height: 250,
                 colors: ['green', '#ffa3ef', 'red']
             });
+        </script>
+        <script type="text/javascript">
+            function test(){
+                let chart = new Chart("#chart", { // or DOM element
+                    data: {
+                        labels: [ "2013", "2014", "2015",
+                            "2016", "2017"],
+
+                        datasets: [
+                            {
+                                label: "Some Data", type: 'bar',
+                                values: [895, 1482, 1660, 1314, 950]
+                            }
+                        ],
+
+//            yMarkers: [{ label: "Marker", value: 70 }],
+//            yRegions: [{ label: "Region", start: -10, end: 50 }]
+                    },
+
+                    title: "标题3",
+                    type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+                    height: 250,
+                    colors: ['green', '#ffa3ef', 'red']
+                });
+            }
         </script>
     </div>
     </div>
