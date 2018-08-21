@@ -32,16 +32,9 @@
 /*text-decoration: none;*/
 /*}*/
 
-.news-content{
-    margin: 40px;
-    padding: 60px;
-}
-.news-ul{
-    list-style-type: none;
-}
 .news-grids{
-    width: 50%;
-    height: 100%;
+    /*width: 50px;*/
+    /*height: 50px;*/
     float: left;
     margin-bottom: 30px;
 }
@@ -51,11 +44,17 @@
     float: left;
 }
 .news-grids-left img{
+    /*width: 200px;*/
+    /*height: 200px;*/
     border-radius: 50%;
 }
 .news-grids-right{
     width: 450px;
 
+}
+.news-grids-right .time{
+    padding-bottom: 10px;
+   border-bottom: dotted;
 }
 .news-grids-left:hover{
     transform: rotate(360deg);
