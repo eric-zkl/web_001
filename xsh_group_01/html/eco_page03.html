@@ -35,16 +35,24 @@
                     labels: [ "2013", "2014", "2015",
                         "2016", "2017"],
 
+
                     datasets: [
                         {
                             label: "Some Data", type: 'bar',
-                            values: [1482, 895, 1660, 1314, 950]
-                        }
+                            values: [1482, 895, 1660, 1314, 950],
+                        },
+                        {
+                            label: "Another Set", type: 'bar',
+                            values: [1782, 1820, 796, 888, 1660]
+                        },
+
                     ],
+
 
 //            yMarkers: [{ label: "Marker", value: 70 }],
 //            yRegions: [{ label: "Region", start: -10, end: 50 }]
                 },
+
 
                 title: "标题",
                 type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
