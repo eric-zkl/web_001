@@ -76,7 +76,7 @@ body {
     background-size: cover;
     will-change: opacity;
     z-index: -1;
-    box-shadow: 0 0 0 50vmax rgba(183, 114, 67, 0.7) inset;
+    box-shadow: 0 0 0 50vmax rgba(250, 251, 255, 0.7) inset;
 }
 .slider::before {
     background-image: var(--img-prev);
