@@ -1,21 +1,11 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.ctz_page02_title01{
+    width: 90%;
 }
-.contanier{
-    width: 100%;
-    /*position: absolute;*/
-    /*top: 50%;*/
-    border: 1px solid #FFFFFF;
-    /*transform: translateY(-50%);*/
-    margin-left: 60px;
-}
-.head{
+.ctz_page02_title02{
     text-align: center;
-    margin: 0 0 40px 0;
-
+    padding: 2%;
 }
-.head .title {
+.ctz_page02_title02 .title {
     font-size: 32px;
     position: relative;
     font-weight: normal;
@@ -27,19 +17,8 @@
     clear: both;
 }
 .news-grids{
-    /*width: 50vw;*/
-    /*height: 50vh;*/
+    padding-top: 3%;
     float: left;
-    margin-bottom: 30px;
-}
-.news-grids-left{
-    width: 200px;
-    height: 200px;
-    float: left;
-}
-.news-grids-right{
-    width: 450px;
-
 }
 .news-grids-right .time{
     padding-bottom: 10px;
@@ -59,7 +38,7 @@
     font-size: 1em;
     line-height: 1.8em;
     margin-top: 1em;
-    color: #87807c;
+    color: black;
 }
 .col{
     /*display: -webkit-box;
@@ -100,10 +79,10 @@
 }
 
 .back{
-    background: #cedce7;
-    background: -webkit-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-    background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-    background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+    background: #BEBEBE;
+    background: -webkit-linear-gradient(45deg,  #BEBEBE 0%,#596a72 100%);
+    background: -o-linear-gradient(45deg,  #BEBEBE 0%,#596a72 100%);
+    background: linear-gradient(45deg,  #BEBEBE 0%,#596a72 100%);
 }
 
 .front:after{
@@ -237,3 +216,7 @@
         font-size: 0.5em;
     }
 }
+.inner p{
+    color: white;
+}
+
