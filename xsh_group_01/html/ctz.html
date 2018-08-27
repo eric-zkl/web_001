@@ -200,7 +200,7 @@
     </div>
     <div class="section section-3">
         <div class="eco_page03title01">
-            <h2>页面标题</h2>
+            <h2>砥砺奋进五年民生成就数据</h2>
         </div>
         <div style="height: 80px"></div>
         <div class="row">
@@ -208,13 +208,13 @@
                 <div class="col-md-5 	col-sm-5 col-xs-5" >
                     <div style="height: 80px"></div>
                     <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-                    <input type="button" value="第一标题"class="col-md-6 col-sm-6 col-xs-6 button">
+                    <input type="button" onclick="test1()"  value="脱贫人数"class="col-md-6 col-sm-6 col-xs-6 button">
                     <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-                    <input type="button" value="第二标题"class="col-md-6 col-sm-6 col-xs-6 button">
+                    <input type="button" onclick="test2()"  value="城镇新增就业"class="col-md-6 col-sm-6 col-xs-6 button">
                     <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-                    <input type="button" onclick="test()" value="第三标题"class="col-md-6 col-sm-6 col-xs-6 button">
+                    <input type="button" onclick="test3()" value="高校毕业人数"class="col-md-6 col-sm-6 col-xs-6 button">
                     <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-                    <input type="button" value="第四标题"class="col-md-6 col-sm-6 col-xs-6 button">
+                    <input type="button" onclick="test4()" value="国家教育投入"class="col-md-6 col-sm-6 col-xs-6 button">
                 </div>
                 <div class="col-md-7 	col-sm-7 col-xs-7 chart">
                     <div id="chart"></div>
@@ -228,7 +228,7 @@
                                 datasets: [
                                     {
                                         label: "Some Data", type: 'bar',
-                                        values: [1482, 895, 1660, 1314, 950]
+                                        values: [1650, 1232, 1442, 1240, 1289]
                                     }
                                 ],
 
@@ -236,14 +236,14 @@
 //            yRegions: [{ label: "Region", start: -10, end: 50 }]
                             },
 
-                            title: "标题",
+                            title: "人数（单位：万人）",
                             type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
                             height: 250,
                             colors: ['green', '#ffa3ef', 'red']
                         });
                     </script>
                     <script type="text/javascript">
-                        function test(){
+                        function test1(){
                             let chart = new Chart("#chart", { // or DOM element
                                 data: {
                                     labels: [ "2013", "2014", "2015",
@@ -252,7 +252,7 @@
                                     datasets: [
                                         {
                                             label: "Some Data", type: 'bar',
-                                            values: [895, 1482, 1660, 1314, 950]
+                                            values: [1650, 1232, 1442, 1240, 1289]
                                         }
                                     ],
 
@@ -260,7 +260,76 @@
 //            yRegions: [{ label: "Region", start: -10, end: 50 }]
                                 },
 
-                                title: "标题3",
+                                title: "人数（单位：万人）",
+                                type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+                                height: 250,
+                                colors: ['green', '#ffa3ef', 'red']
+                            });
+                        }
+                        function test2(){
+                            let chart = new Chart("#chart", { // or DOM element
+                                data: {
+                                    labels: [ "2013", "2014", "2015",
+                                        "2016", "2017"],
+
+                                    datasets: [
+                                        {
+                                            label: "Some Data", type: 'bar',
+                                            values: [1310, 1322, 1312, 1314, 1351]
+                                        }
+                                    ],
+
+//            yMarkers: [{ label: "Marker", value: 70 }],
+//            yRegions: [{ label: "Region", start: -10, end: 50 }]
+                                },
+
+                                title: "人数（单位：万人）",
+                                type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+                                height: 250,
+                                colors: ['green', '#ffa3ef', 'red']
+                            });
+                        }
+                        function test3(){
+                            let chart = new Chart("#chart", { // or DOM element
+                                data: {
+                                    labels: [ "2013", "2014", "2015",
+                                        "2016", "2017"],
+
+                                    datasets: [
+                                        {
+                                            label: "Some Data", type: 'bar',
+                                            values: [699, 727, 749, 765, 795]
+                                        }
+                                    ],
+
+//            yMarkers: [{ label: "Marker", value: 70 }],
+//            yRegions: [{ label: "Region", start: -10, end: 50 }]
+                                },
+
+                                title: "人数（单位：万人）",
+                                type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+                                height: 250,
+                                colors: ['green', '#ffa3ef', 'red']
+                            });
+                        }
+                        function test4(){
+                            let chart = new Chart("#chart", { // or DOM element
+                                data: {
+                                    labels: ["2012",  "2013", "2014", "2015",
+                                        "2016"],
+
+                                    datasets: [
+                                        {
+                                            label: "Some Data", type: 'bar',
+                                            values: [23148, 24488, 26421, 29221, 31373]
+                                        }
+                                    ],
+
+//            yMarkers: [{ label: "Marker", value: 70 }],
+//            yRegions: [{ label: "Region", start: -10, end: 50 }]
+                                },
+
+                                title: "人民币（单位：亿元）",
                                 type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
                                 height: 250,
                                 colors: ['green', '#ffa3ef', 'red']
