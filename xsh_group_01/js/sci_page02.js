@@ -24,6 +24,7 @@ function toggleOptions(s) {
 }
 
 $('.selector button').click(function(e) {
+    //alert($(this).parent().className);
     toggleOptions($(this).parent());
 });
 

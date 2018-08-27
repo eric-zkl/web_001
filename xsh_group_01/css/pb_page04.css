@@ -1,6 +1,7 @@
 #word_pagetitle h2{
     /*width: 90%;*/
     /*position: absolute;*/
+    padding-top: 3%;
     font-size: 20px;
     text-align: center;
 }
@@ -30,9 +31,9 @@
 }
 .word_page_li {
     text-align: center;
-    margin-bottom: 20px;
     height: 40vh;
     overflow: hidden;
+    padding-top: 7%;
 }
 
 /*.word_page_news_circle:hover{*/

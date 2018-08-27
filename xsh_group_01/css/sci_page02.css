@@ -10,13 +10,12 @@ body {
 }
 
 .selector {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  position: relative;
+  /*right: 0%;*/
+  /*top: 50%;*/
   width: 140px;
   height: 140px;
-  margin-top: -70px;
-  margin-left: -70px;
+  margin: 50% auto;
 }
 
 .selector, .selector button {
@@ -109,4 +108,17 @@ body {
   margin-left: -40px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
   font-size: 14px;
+}
+.sci_video{
+  width: 100%;
+  margin-top: 50%;
+}
+.col-md-8{
+  width: 66.66666%;
+}
+.col-md-4{
+  width: 33.3333%;
+}
+.col-md-4 ,.col-md-8{
+  float: left;
 }

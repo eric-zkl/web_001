@@ -1,22 +1,4 @@
-/*html .section-4  {*/
-    /*box-sizing: border-box;*/
-    /*font: 18px PT Mono;*/
-    /*background: antiquewhite;*/
-/*}*/
 
-/*.section-4 *,*/
-/*.section-4 *::before,*/
-/*.section-4 *::after {*/
-    /*box-sizing: inherit;*/
-/*}*/
-
-/*body .section-4  {*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*flex-direction: column;*/
-    /*height: 100vh;*/
-/*}*/
 
 .section-4 .box {
     width: 15%;
