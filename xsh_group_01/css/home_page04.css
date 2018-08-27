@@ -2,11 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
-
 .container{
-    width: 100%;
-    border: 1px solid #FFFFFF;
-    margin-left: 60px;
+    width: 95%;
+
 }
 .head{
     text-align: center;
@@ -71,4 +69,8 @@
     line-height: 1.8em;
     margin-top: 1em;
     color: #87807c;
+}
+.col-md-6{
+    padding-right: 0px;
+    padding-left: 0px;
 }
