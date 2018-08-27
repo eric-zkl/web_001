@@ -28,9 +28,7 @@
 .hex-row.even {
     margin-left: 96px;
 }
-.transparent{
-    opacity: 0;
-}
+
 .my_row>*{
     float: left;
 }
