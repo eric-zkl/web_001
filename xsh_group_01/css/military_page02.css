@@ -19,16 +19,31 @@ a,img{border:0;text-decoration:none;}
     -webkit-transition:all .5s;-o-transition:all .5s}
 .solution-item-wrapper{
     width:240px;height:412px;
-    background:url(../other/mil02.png) center no-repeat}
-.solution-item-02{background-image:url(../other/mil02.png)}
-.solution-item-03{background-image:url(../other/mil02.png)}
-.solution-item-04{background-image:url(../other/mil02.png)}
-.solution-item-05{background-image:url(../other/mil02.png)}
+    background:url(../other/military/military_page021.jpg) center no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.solution-item-02{
+    background-image:url(../other/military/military_page022.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.solution-item-03{
+    background-image:url(../other/military/military_page023.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.solution-item-04{
+    background-image:url(../other/military/military_page024.jpg);
+}
+.solution-item-05{
+    background-image:url(../other/military/military_page025.jpg);
+}
 .active .solution-item-wrapper{
     position:absolute;
     z-index:9;top:-62px;left:-51px;
     width:341px;height:526px;
-    background:url(../other/mil02.png) no-repeat;
+    background:url(../other/military/military_page021.jpg) no-repeat;
     -webkit-box-shadow:0 5px 40px rgba(0,0,0,.5);
     -moz-box-shadow:0 5px 40px rgba(0,0,0,.5);
     box-shadow:0 5px 40px rgba(0,0,0,.5)
@@ -37,10 +52,26 @@ a,img{border:0;text-decoration:none;}
 @media only screen and (max-width:1400px){
     .product-special-li-5.active .solution-item-wrapper{left:-102px}
 }
-.active .solution-item-02{background-image:url(../other/mil02.png)}
-.active .solution-item-03{background-image:url(../other/mil02.png)}
-.active .solution-item-04{background-image:url(../other/mil02.png)}
-.active .solution-item-05{background-image:url(../other/mil02.png)}
+.active .solution-item-02{
+    background-image:url(../other/military/military_page022.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.active .solution-item-03{
+    background-image:url(../other/military/military_page023.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.active .solution-item-04{
+    background-image:url(../other/military/military_page024.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.active .solution-item-05{
+    background-image:url(../other/military/military_page025.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 .solution-list ul li p.solution-title{
     position:absolute;
     top:211px;
