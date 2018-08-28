@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="eco_page03title01">
-<h2>页面标题</h2>
+<h2>经济数据解读</h2>
 </div>
 <div style="height: 80px"></div>
 <div class="row">
@@ -18,13 +18,13 @@
     <div class="col-md-5 	col-sm-5 col-xs-5" >
         <div style="height: 80px"></div>
         <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-        <input type="button" value="第一标题"class="col-md-6 col-sm-6 col-xs-6 button">
+        <input type="button" onclick="test1()"  value="经济稳定指标"class="col-md-6 col-sm-6 col-xs-6 button">
         <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-        <input type="button" value="第二标题"class="col-md-6 col-sm-6 col-xs-6 button">
+        <input type="button" onclick="test2()"  value="经济增长指标"class="col-md-6 col-sm-6 col-xs-6 button">
         <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-        <input type="button" onclick="test()" value="第三标题"class="col-md-6 col-sm-6 col-xs-6 button">
+        <input type="button" onclick="test3()" value="国际收支指标"class="col-md-6 col-sm-6 col-xs-6 button">
         <div class="col-md-4 	col-sm-4 col-xs-4"></div>
-        <input type="button" value="第四标题"class="col-md-6 col-sm-6 col-xs-6 button">
+        <input type="button" onclick="test4()"  value="金融市场指标"class="col-md-6 col-sm-6 col-xs-6 button">
     </div>
     <div class="col-md-7 	col-sm-7 col-xs-7 chart">
         <div id="chart"></div>
@@ -35,33 +35,25 @@
                     labels: [ "2013", "2014", "2015",
                         "2016", "2017"],
 
-
                     datasets: [
                         {
                             label: "Some Data", type: 'bar',
-                            values: [1482, 895, 1660, 1314, 950],
-                        },
-                        {
-                            label: "Another Set", type: 'bar',
-                            values: [1782, 1820, 796, 888, 1660]
-                        },
-
+                            values: [1650, 1232, 1442, 1240, 1289]
+                        }
                     ],
-
 
 //            yMarkers: [{ label: "Marker", value: 70 }],
 //            yRegions: [{ label: "Region", start: -10, end: 50 }]
                 },
 
-
-                title: "标题",
+                title: "货币供应量（单位：亿元）",
                 type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
                 height: 250,
                 colors: ['green', '#ffa3ef', 'red']
             });
         </script>
         <script type="text/javascript">
-            function test(){
+            function test1(){
                 let chart = new Chart("#chart", { // or DOM element
                     data: {
                         labels: [ "2013", "2014", "2015",
@@ -70,7 +62,7 @@
                         datasets: [
                             {
                                 label: "Some Data", type: 'bar',
-                                values: [895, 1482, 1660, 1314, 950]
+                                values: [410950, 425600, 432005, 450064, 451329]
                             }
                         ],
 
@@ -78,7 +70,76 @@
 //            yRegions: [{ label: "Region", start: -10, end: 50 }]
                     },
 
-                    title: "标题3",
+                    title: "货币供应量(单位:亿元)",
+                    type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+                    height: 250,
+                    colors: ['green', '#ffa3ef', 'red']
+                });
+            }
+            function test2(){
+                let chart = new Chart("#chart", { // or DOM element
+                    data: {
+                        labels: [ "2008", "2009","2010","2011","2012","2013","2014", "2015",
+                            "2016", "2017","2018"],
+
+                        datasets: [
+                            {
+                                label: "Some Data", type: 'bar',
+                                values: [225300, 285365, 312000, 464892, 504622,597050,684562,734613,856132,886021,920454]
+                            }
+                        ],
+
+//            yMarkers: [{ label: "Marker", value: 70 }],
+//            yRegions: [{ label: "Region", start: -10, end: 50 }]
+                    },
+
+                    title: "国内生产总值",
+                    type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+                    height: 250,
+                    colors: ['green', '#ffa3ef', 'red']
+                });
+            }
+            function test3(){
+                let chart = new Chart("#chart", { // or DOM element
+                    data: {
+                        labels: [ "2008", "2009","2010","2011","2012","2013","2014", "2015",
+                            "2016", "2017","2018"],
+
+                        datasets: [
+                            {
+                                label: "Some Data", type: 'bar',
+                                values: [25320, 23652, 27635,35468, 38234,40685, 38373,35416,35318,38462]
+                            }
+                        ],
+
+//            yMarkers: [{ label: "Marker", value: 70 }],
+//            yRegions: [{ label: "Region", start: -10, end: 50 }]
+                    },
+
+                    title: "进出口总额",
+                    type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
+                    height: 250,
+                    colors: ['green', '#ffa3ef', 'red']
+                });
+            }
+            function test4(){
+                let chart = new Chart("#chart", { // or DOM element
+                    data: {
+                        labels: ["2008", "2009","2010","2011","2012","2013","2014", "2015",
+                            "2016", "2017","2018"],
+
+                        datasets: [
+                            {
+                                label: "Some Data", type: 'bar',
+                                values: [29320, 30652, 38635,35468, 40234,46685, 47373,48416,50318,56462]
+                            }
+                        ],
+
+//            yMarkers: [{ label: "Marker", value: 70 }],
+//            yRegions: [{ label: "Region", start: -10, end: 50 }]
+                    },
+
+                    title: "居民消费价格指数与工业品出厂价格指数",
                     type: 'axis-mixed', // or 'bar', 'line', 'pie', 'percentage'
                     height: 250,
                     colors: ['green', '#ffa3ef', 'red']

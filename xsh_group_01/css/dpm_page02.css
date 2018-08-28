@@ -1,6 +1,13 @@
 *{margin:0;padding:0;list-style-type:none;}
 
-.col-grid-left{
+.col-grid-left01{
+    float: left;
+    background-color: gainsboro;
+    width: 50vw;
+    height: 100%;
+    border-top:solid white 30px;
+}
+.col-grid-left02{
     float: left;
     background-color: gainsboro;
     width: 50vw;
