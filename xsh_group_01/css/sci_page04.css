@@ -6,8 +6,8 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../other/timg01.jpg") no-repeat center center;
-    background-size: 200%;
+    background:url("../img/sci_page04_img01.png") no-repeat center center;
+    background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
     margin-left: 40px;
@@ -23,8 +23,8 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../other/timg02.jpg") no-repeat center center;
-    background-size: 200%;
+    background:url("../img/sci_page04_img02.png") no-repeat center center;
+    background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
     margin-left: 40px;
@@ -40,8 +40,8 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../other/timg03.jpg") no-repeat center center;
-    background-size: 200%;
+    background:url("../img/sci_page04_img03.png") no-repeat center center;
+    background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
     margin-left: 40px;
@@ -57,8 +57,8 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../other/timg04.jpg") no-repeat center center;
-    background-size: 200%;
+    background:url("../img/sci_page04_img04.png") no-repeat center center;
+    background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
     margin-left: 40px;
@@ -74,8 +74,8 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../other/timg05.jpg") no-repeat center center;
-    background-size: 200%;
+    background:url("../img/sci_page04_img05.png") no-repeat center center;
+    background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
     margin-left: 40px;
