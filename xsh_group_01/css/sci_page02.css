@@ -86,6 +86,7 @@ body {
   cursor: pointer;
   box-shadow: none;
   transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+  max-width: none;
 }
 
 .sci_selector li input + label:hover {
