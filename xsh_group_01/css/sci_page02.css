@@ -86,6 +86,7 @@ body {
   cursor: pointer;
   box-shadow: none;
   transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+  max-width: none;
 }
 
 .sci_selector li input + label:hover {
@@ -132,6 +133,6 @@ body {
   width: 100%;
   height: 80vh;
   margin-top: 10vh;
-  background: url("../other/img3.jpg") no-repeat ;
+  /*background: url("../other/img3.jpg") no-repeat ;*/
   background-size: 100% 100%;
 }
