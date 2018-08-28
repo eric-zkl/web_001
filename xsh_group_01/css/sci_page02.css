@@ -133,6 +133,6 @@ body {
   width: 100%;
   height: 80vh;
   margin-top: 10vh;
-  background: url("../other/img3.jpg") no-repeat ;
+  /*background: url("../other/img3.jpg") no-repeat ;*/
   background-size: 100% 100%;
 }
