@@ -3,122 +3,103 @@
     position: absolute;
     left: 5%;
     text-align: center;
-    border-bottom: solid 2px black;
     font-size: 30px;
 }
-
+.sci_page03title02_img1_01{
+    height: 200px;
+    background:url(../other/01.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.sci_page03title02_img1_01:hover{
+    background-size: 130%;
+}
+.sci_page03title02_img2_01{
+    height: 200px;
+    background:url(../other/02.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.sci_page03title02_img2_01:hover{
+    background-size: 130%;
+}
+.sci_page03title02_img3_01{
+    height: 200px;
+    background:url(../other/03.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.sci_page03title02_img3_01:hover{
+    background-size: 130%;
+}
+.sci_page03title02_img4_01{
+    height: 200px;
+    background:url(../other/07.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.sci_page03title02_img4_01:hover{
+    background-size: 130%;
+}
+.sci_page03title02_img5_01{
+    height: 200px;
+    background:url(../other/05.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.sci_page03title02_img5_01:hover{
+    background-size: 130%;
+}
+.sci_page03title02_img6_01{
+    height: 200px;
+    background:url(../other/06.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.sci_page03title02_img6_01:hover{
+    background-size: 130%;
+}
 .sci_page03title02_img1_02 {
     background-color: black;
     opacity: 0;
 }
 
-.sci_page03title02_img1_01:hover .sci_page03title02_img1_02 {
-    opacity: 0.6;
+.sci_page03title02_box {
+    background-color: white;
+    -webkit-transition:1.2s;
+    opacity: 0.5;
+    transform: scale(0);
 }
 
-.sci_page03title02_img2_02 {
-    background-color: black;
-    opacity: 0;
+.sci_page03title02_img1_01:hover .sci_page03title02_box {
+    transform: scale(1);
 }
 
-.sci_page03title02_img2_01:hover .sci_page03title02_img2_02 {
-    opacity: 0.6;
+.sci_page03title02_img2_01:hover .sci_page03title02_box {
+    transform: scale(1);
 }
 
-.sci_page03title02_img3_02 {
-    background-color: black;
-    opacity: 0;
+.sci_page03title02_img3_01:hover .sci_page03title02_box {
+    transform: scale(1);
 }
 
-.sci_page03title02_img3_01:hover .sci_page03title02_img3_02 {
-    opacity: 0.6;
+.sci_page03title02_img4_01:hover .sci_page03title02_box {
+    transform: scale(1);
 }
 
-.sci_page03title02_img4_02 {
-    background-color: black;
-    opacity: 0;
+.sci_page03title02_img5_01:hover .sci_page03title02_box {
+    transform: scale(1);
 }
 
-.sci_page03title02_img4_01:hover .sci_page03title02_img4_02 {
-    opacity: 0.6;
-}
-
-.sci_page03title02_img5_02 {
-    background-color: black;
-    opacity: 0;
-}
-
-.sci_page03title02_img5_01:hover .sci_page03title02_img5_02 {
-    opacity: 0.6;
-}
-
-.sci_page03title02_img6_02 {
-    background-color: black;
-    opacity: 0;
-}
-
-.sci_page03title02_img6_01:hover .sci_page03title02_img6_02 {
-    opacity: 0.6;
-}
-
-.sci_page03title02_word {
-    display: inline-block;
-    transition: all 300ms ease-in;
-    -moz-transition: all 300ms ease-in;
-    -webkit-transition: all 300ms ease-in;
-}
-
-.sci_page03title02_img1_01:hover .sci_page03title02_word {
-
-    transform: translateY(-300px);
-    animation-play-state: running;
-}
-
-.sci_page03title02_img2_01:hover .sci_page03title02_word {
-
-    transform: translateY(-300px);
-    animation-play-state: running;
-}
-
-.sci_page03title02_img3_01:hover .sci_page03title02_word {
-
-    transform: translateY(-300px);
-    animation-play-state: running;
-}
-
-.sci_page03title02_img4_01:hover .sci_page03title02_word {
-
-    transform: translateY(-300px);
-    animation-play-state: running;
-}
-
-.sci_page03title02_img5_01:hover .sci_page03title02_word {
-
-    transform: translateY(-300px);
-    animation-play-state: running;
-}
-
-.sci_page03title02_img6_01:hover .sci_page03title02_word {
-    transform: translateY(-300px);
-    animation-play-state: running;
-}
-
-.container .col-md-4 {
-    padding-left: 0px;
-    padding-right: 0px;
+.sci_page03title02_img6_01:hover .sci_page03title02_box {
+    transform: scale(1);
 }
 
 .sci_page03title02_box {
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
     width: 100%;
     height: 30%;
     overflow: hidden;
-    transform: translateY(234%);
-}
-
-.sci_page03title02_word {
-    position: absolute;
-    top: 300px;
 }
