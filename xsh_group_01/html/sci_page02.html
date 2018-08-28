@@ -8,13 +8,16 @@
 </head>
 <body>
         <div class="col-md-8">
-            <video class="sci_video" src="../other/movie.mp4" autoplay="autoplay"></video>
+            <video id="sci_video" class="sci_video" src="../other/movie.mp4" autoplay="autoplay" controls="controls"></video>
+            <div id="sci_page02_img" class="sci_page02_img">
+
+            </div>
         </div>
-        <div class="col-md-4">
-            <div class='selector'>
+        <div class="col-md-4 ">
+            <div class='sci_selector' >
                 <ul>
                     <li>
-                        <input id='1' type='radio' name="test">
+                        <input id='1' type='radio' name="test" onclick="showImage(this)">
                         <label for='1'>Option 1</label>
                     </li>
                     <li>
@@ -55,4 +58,15 @@
     <script type="text/javascript" src="../js/jquery.min.js"></script>
     <script type="text/javascript" src="../js/sci_page02.js"></script>
 </body>
+<script type="text/javascript">
+    var sci_video=document.getElementById("sci_video");
+    var sci_page02_img=document.getElementById("sci_page02_img");
+        function showImage( obj){
+
+            sci_video.style.display="none";
+            sci_page02_img.style.transform="scale(1)";
+//            sci_page02_img.style.width="100%";
+        }
+</script>
+
 </html>
