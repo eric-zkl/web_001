@@ -6,7 +6,7 @@ $(function(){addEvent('map_1');addEvent('map_2');addEvent('map_3');addEvent('map
 var map_config = {
         'default':{'borderColor':'#9CA8B6','mapShadow':'#fff','shadowOpacity':'35','hoverShadow':'#666666','lakesColor':'#66CCFF','namesColor':'#919191',},
         'map_1':{
-            'hover': 'AFGHANISTAN','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': 'AFGHANISTAN ','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_2':{
             'hover': 'ALBANIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -21,13 +21,13 @@ var map_config = {
             'hover': 'ANGOLA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_6':{
-            'hover': 'ARGENTINA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '阿根廷 <br><span style="color: yellow;font-size: 16px"> 2018年5月11日，国家主席习近平同阿根廷总统马克里互致信函。双方就中阿关系、二十国集团领导人峰会和阿根廷当前经济金融形势等交换看法。</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_7':{
             'hover': 'ARMENIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_8':{
-            'hover': 'AUSTRALIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '澳大利亚<br><span style="color: yellow;font-size: 16px">当地时间2017年3月24日下午，国务院总理李克强在悉尼与澳大利亚总理特恩布尔共同出席中澳经贸合作论坛并发表演讲。 </span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_9':{
             'hover': 'AUSTRIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -69,7 +69,7 @@ var map_config = {
             'hover': 'BOTSWANA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_22':{
-            'hover': 'BRAZIL','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '巴西 <br><span style="color: yellow; font-size: 16px">2017年9月1日，国家主席习近平在人民大会堂同来华进行国事访问并出席金砖国家领导人厦门会晤、新兴市场<br>国家与发展中国家对话会的巴西总统特梅尔举行会谈。两国元首一致同意深化中巴传统友谊，推动中巴全面战略<br>伙伴关系取得新的更大发展</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_23':{
             'hover': 'BRUNEI','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -132,7 +132,7 @@ var map_config = {
             'hover': 'C?TE D&#39;IVOIRE','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_43':{
-            'hover': 'DEMOCRATIC REPUBLIC OF THE CONGO','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '刚果民主共和国<br><span style="color: yellow; font-size: 16px"> 2014年6月12日，国家主席习近平在人民大会堂同刚果共和国总统萨苏举行会谈。<br>两国元首赞扬两国传统友谊和合作成果，决心共同努力，促进两国关系全方位发<br>展，推动中非新型战略伙伴关系不断向前迈进。</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_44':{
             'hover': 'DENMARK','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -171,7 +171,7 @@ var map_config = {
             'hover': 'FINLAND','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_56':{
-            'hover': 'FRANCE','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '法国 <br><span style="color: yellow;font-size: 16px"> 2018年1月9日，国家主席习近平在人民大会堂同法国总统马克龙举行会谈。两国元首一致同意，<br>秉承友好传统，推动紧密持久的中法全面战略伙伴关系行稳致远。</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_57':{
             'hover': 'FRENCH GUIANA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -219,7 +219,7 @@ var map_config = {
             'hover': 'ICELAND','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_72':{
-            'hover': 'INDIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '印度 <br><span style="color: yellow;font-size: 16px">2018年4月27日至28日，中国国家主席习近平同印度总理莫迪在中国湖北省武汉市举行非正式会晤。<br>两位领导人在友好气氛中，就国际格局和双边关系中的全局性、长期性、战略性问题以及各自国家发展<br>愿景和内外政策深入交换意见，达成广泛共识</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_73':{
             'hover': 'INDONESIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -318,7 +318,7 @@ var map_config = {
             'hover': 'MAURITIUS','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_105':{
-            'hover': 'MEXICO','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '墨西哥 <br><span style="color: yellow; font-size: 16px">当地时间2018年1月22日，外交部长王毅在圣地亚哥会见出席中拉论坛第二届部长级会议的墨西哥外长比德加赖。<br>比德加赖表示，墨方感谢中方将“一带一路”倡议引入中拉论坛，愿意更加深入地参与中拉共建“一带一路”进程。</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_106':{
             'hover': 'MOLDOVA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -405,7 +405,7 @@ var map_config = {
             'hover': 'ROMANIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_134':{
-            'hover': 'RUSSIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '俄罗斯<br><span style="color: yellow; font-size: 16px">２０１４年５月，俄总统普京访华。两国元首在上海共同签署《中俄关于全面战略协作伙伴关系新阶段的联合声明》，<br>提出建立全面的中俄能源合作伙伴关系。</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_135':{
             'hover': 'RWANDA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -441,7 +441,7 @@ var map_config = {
             'hover': 'SOMALIA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_146':{
-            'hover': 'SOUTH AFRICA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '南非<br><span style="color: yellow;font-size: 16px">2013年3月，习近平主席对南进行国事访问，双方发表联合公报，中南全面战略伙伴关系迈上新台阶。</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_147':{
             'hover': 'SOUTH KOREA','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
@@ -519,7 +519,7 @@ var map_config = {
             'hover': 'UNITED KINGDOM','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_172':{
-            'hover': 'UNITED STATES<br><span style="color: yellow;">*Link each country to any webpage*</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
+            'hover': '美国 <br><span style="color: yellow;font-size: 16px">&nbsp;&nbsp;&nbsp;2017年11月8日到10日，美国总统特朗普访华，签订了2500亿美元的大单，<br>美国出口了包括医疗、化工行业等大量非军事的高新技术，在此之前中国还涉<br>足了美国一家控制飞机发动机技术的控股公司，而中国把自己的飞机、地铁等<br>制造业也打入美国市场</span>','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
         },
         'map_173':{
             'hover': 'URUGUAY','upColor':'#eff9ff','overColor':'#ffcc5f','downColor':'#477cb2','enable':true,
