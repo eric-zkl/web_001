@@ -1,8 +1,9 @@
 #word_pagetitle h2{
     /*width: 90%;*/
     /*position: absolute;*/
+    color: #a81d12;
     padding-top: 3%;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 .word-page_container{
@@ -13,7 +14,7 @@
 
 }
 .word_page_news_img img{
-    width: 80px;
+    width: 70px;
     height: 70px;
     transition: 1s;
     /*…Ë÷√‘≤–Œ*/
@@ -26,8 +27,12 @@
 }
 
 .word_page_news_img{
-    width: 80px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
     margin: 0px auto;
+    background-repeat: repeat;
+
 }
 .word_page_li {
     text-align: center;
@@ -35,6 +40,14 @@
     overflow: hidden;
     padding-top: 7%;
 }
+.word_page_newstitle{
+    color: #262626;
+    margin-top: 15px;
+}
+.word_page_news{
+    color: dimgray;
+}
+
 
 /*.word_page_news_circle:hover{*/
 /*transform: rotate(30deg);*/
