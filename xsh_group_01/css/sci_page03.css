@@ -7,7 +7,7 @@
 }
 .sci_page03title02_img1_01{
     height: 200px;
-    background:url(../other/01.jpg) no-repeat center center;
+    background:url(../img/sci_page03_img01.jpg) no-repeat center center;
     background-size: 100%;
     -webkit-transition:1s;
 }
@@ -16,7 +16,7 @@
 }
 .sci_page03title02_img2_01{
     height: 200px;
-    background:url(../other/02.jpg) no-repeat center center;
+    background:url(../img/sci_page03_img02.jpg) no-repeat center center;
     background-size: 100%;
     -webkit-transition:1s;
 }
@@ -25,7 +25,7 @@
 }
 .sci_page03title02_img3_01{
     height: 200px;
-    background:url(../other/03.jpg) no-repeat center center;
+    background:url(../img/sci_page03_img03.jpg) no-repeat center center;
     background-size: 100%;
     -webkit-transition:1s;
 }
@@ -34,7 +34,7 @@
 }
 .sci_page03title02_img4_01{
     height: 200px;
-    background:url(../other/07.jpg) no-repeat center center;
+    background:url(../img/sci_page03_img04.jpg) no-repeat center center;
     background-size: 100%;
     -webkit-transition:1s;
 }
@@ -43,7 +43,7 @@
 }
 .sci_page03title02_img5_01{
     height: 200px;
-    background:url(../other/05.jpg) no-repeat center center;
+    background:url(../img/sci_page03_img05.jpg) no-repeat center center;
     background-size: 100%;
     -webkit-transition:1s;
 }
@@ -52,7 +52,7 @@
 }
 .sci_page03title02_img6_01{
     height: 200px;
-    background:url(../other/06.jpg) no-repeat center center;
+    background:url(../img/sci_page03_img06.jpg) no-repeat center center;
     background-size: 100%;
     -webkit-transition:1s;
 }
@@ -102,4 +102,15 @@
     width: 100%;
     height: 30%;
     overflow: hidden;
+}
+.sci_page03title02_word{
+    display: flex;
+    margin: 0px auto;
+    margin-top: 5%;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 微软雅黑;
+    font-size: 16px;
 }
