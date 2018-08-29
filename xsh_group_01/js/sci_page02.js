@@ -14,18 +14,19 @@ function rotate(li,d) {
 
 // show / hide the options
 function toggleOptions(s) {
+    //alert(123);
     $(s).toggleClass('open');
     var li = $(s).find('li');
-    var deg = $(s).hasClass('half') ? 180/(li.length-1) : 360/li.length;
+    var deg = 360/li.length;
     for(var i=0; i<li.length; i++) {
-        var d = $(s).hasClass('half') ? (i*deg)-90 : i*deg;
+        var d = i*deg;
         $(s).hasClass('open') ? rotate(li[i],d) : rotate(li[i],angleStart);
     }
 }
 
-$('.selector button').click(function(e) {
-    //alert($(this).parent().className);
+$('.sci_selector button').click(function(e) {
+
     toggleOptions($(this).parent());
 });
 
-setTimeout(function() { toggleOptions('.selector'); }, 100);
+setTimeout(function() { toggleOptions('.sci_selector'); }, 100);

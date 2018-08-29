@@ -3,56 +3,92 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>科技页面二</title>
-    <!--<link href="../css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/sci_page02.css" rel="stylesheet">
 </head>
 <body>
-        <div class="col-md-8">
-            <video class="sci_video" src="../other/movie.mp4" autoplay="autoplay"></video>
-        </div>
-        <div class="col-md-4">
-            <div class='selector'>
-                <ul>
-                    <li>
-                        <input id='1' type='radio' name="test">
-                        <label for='1'>Option 1</label>
-                    </li>
-                    <li>
-                        <input id='2' type='radio' name="test">
-                        <label for='2'>Option 2</label>
-                    </li>
-                    <li>
-                        <input id='3' type='radio' name="test">
-                        <label for='3'>Option 3</label>
-                    </li>
-                    <li>
-                        <input id='4' type='radio' name="test">
-                        <label for='4'>Option 4</label>
-                    </li>
-                    <li>
-                        <input id='5' type='radio' name="test">
-                        <label for='5'>Option 5</label>
-                    </li>
-                    <li>
-                        <input id='6' type='radio' name="test">
-                        <label for='6'>Option 6</label>
-                    </li>
-                    <li>
-                        <input id='7' type='radio' name="test">
-                        <label for='7'>Option 7</label>
-                    </li>
-                    <li>
-                        <input id='8' type='radio' name="test">
-                        <label for='8'>Option 8</label>
-                    </li>
-                </ul>
-                <button>Click here</button>
-            </div>
-        </div>
-
-
-
-    <script type="text/javascript" src="../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/sci_page02.js"></script>
+<div class="col-md-8">
+    <video id="sci_video" class="sci_video" src="../other/movie.mp4" autoplay="autoplay" controls="controls"></video>
+    <div id="sci_page02_img1" class="sci_page02_img">
+    </div>
+    <div id="sci_page02_img2" class="sci_page02_img">
+    </div>
+    <div id="sci_page02_img3" class="sci_page02_img">
+    </div>
+    <div id="sci_page02_img4" class="sci_page02_img">
+    </div>
+    <div id="sci_page02_img5" class="sci_page02_img">
+    </div>
+    <div id="sci_page02_img6" class="sci_page02_img">
+    </div>
+    <div id="sci_page02_img7" class="sci_page02_img">
+    </div>
+</div>
+<div class="col-md-4 ">
+    <div class='sci_selector'>
+        <ul>
+            <li>
+                <input id='1' type='radio' name="sci_item" onclick="showImage('03.jpg',1)">
+                <label for='1'>Option 1</label>
+            </li>
+            <li>
+                <input id='2' type='radio' name="sci_item" onclick="showImage('02.jpg',2)">
+                <label for='2'>Option 2</label>
+            </li>
+            <li>
+                <input id='3' type='radio' name="sci_item" onclick="showImage('05.jpg',3)">
+                <label for='3'>Option 3</label>
+            </li>
+            <li>
+                <input id='4' type='radio' name="sci_item" onclick="showImage('06.jpg',4)">
+                <label for='4'>Option 4</label>
+            </li>
+            <li>
+                <input id='5' type='radio' name="sci_item" onclick="showImage('07.jpg',5)">
+                <label for='5'>Option 5</label>
+            </li>
+            <li>
+                <input id='6' type='radio' name="sci_item" onclick="showImage('08.jpg',6)">
+                <label for='6'>Option 6</label>
+            </li>
+            <li>
+                <input id='7' type='radio' name="sci_item" onclick="showImage('201.jpeg',7)">
+                <label for='7'>Option 7</label>
+            </li>
+            <li>
+                <input id='8' type='radio' name="sci_item">
+                <label for='8'>Option 8</label>
+            </li>
+        </ul>
+        <button>Click here</button>
+    </div>
+</div>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/sci_page02.js"></script>
 </body>
+<script type="text/javascript">
+    var sci_video = document.getElementById("sci_video");
+
+    var flag;//定义一个标记位
+    //    设置图片出现的事件
+    function showImage(img_name,index) {
+        if(flag){
+            flag.style.transform="scale(0)";
+        }
+        var sci_page02_img = document.getElementById("sci_page02_img"+index);
+        flag=sci_page02_img;
+
+        sci_video.style.display = "none";
+        sci_page02_img.style.backgroundImage = "url(../other/"+img_name+")";
+        sci_page02_img.style.transform = "scale(1)";
+    }
+    function playPause() {
+        if (sci_video.play()) {
+            sci_video.pause();
+        } else {
+            sci_video.play();
+        }
+    }
+</script>
+
 </html>

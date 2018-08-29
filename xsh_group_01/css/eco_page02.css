@@ -4,61 +4,73 @@
     left: 5%;
     font-size: 20px;
     text-align: center;
-    border-bottom: solid 2px black;
 }
-
+.eco_page02title02_img1_01{
+    height: 200px;
+    background:url(../other/01.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.eco_page02title02_img1_01:hover{
+    background-size: 130%;
+}
+.eco_page02title02_img2_01{
+    height: 200px;
+    background:url(../other/02.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.eco_page02title02_img2_01:hover{
+    background-size: 130%;
+}
+.eco_page02title02_img3_01{
+    height: 200px;
+    background:url(../other/03.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.eco_page02title02_img3_01:hover{
+    background-size: 130%;
+}
+.eco_page02title02_img4_01{
+    height: 200px;
+    background:url(../other/07.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.eco_page02title02_img4_01:hover{
+    background-size: 130%;
+}
+.eco_page02title02_img5_01{
+    height: 200px;
+    background:url(../other/05.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.eco_page02title02_img5_01:hover{
+    background-size: 130%;
+}
+.eco_page02title02_img6_01{
+    height: 200px;
+    background:url(../other/06.jpg) no-repeat center center;
+    background-size: 100%;
+    -webkit-transition:1s;
+}
+.eco_page02title02_img6_01:hover{
+    background-size: 130%;
+}
 .eco_page02title02_img1_02 {
     background-color: black;
     opacity: 0;
 }
 
-.eco_page02title02_img1_01:hover .eco_page02title02_img1_02 {
-    opacity: 0.6;
+.eco_page02title02_img01:hover .eco_page02title02_img02 {
+    opacity: 0.5;
 }
 
-.eco_page02title02_img2_02 {
+.eco_page02title02_img02 {
     background-color: black;
     opacity: 0;
-}
-
-.eco_page02title02_img2_01:hover .eco_page02title02_img2_02 {
-    opacity: 0.6;
-}
-
-.eco_page02title02_img3_02 {
-    background-color: black;
-    opacity: 0;
-}
-
-.eco_page02title02_img3_01:hover .eco_page02title02_img3_02 {
-    opacity: 0.6;
-}
-
-.eco_page02title02_img4_02 {
-    background-color: black;
-    opacity: 0;
-}
-
-.eco_page02title02_img4_01:hover .eco_page02title02_img4_02 {
-    opacity: 0.6;
-}
-
-.eco_page02title02_img5_02 {
-    background-color: black;
-    opacity: 0;
-}
-
-.eco_page02title02_img5_01:hover .eco_page02title02_img5_02 {
-    opacity: 0.6;
-}
-
-.eco_page02title02_img6_02 {
-    background-color: black;
-    opacity: 0;
-}
-
-.eco_page02title02_img6_01:hover .eco_page02title02_img6_02 {
-    opacity: 0.6;
 }
 
 .eco_page02title02_word {
@@ -68,45 +80,11 @@
     -webkit-transition: all 300ms ease-in;
 }
 
-.eco_page02title02_img1_01:hover .eco_page02title02_word {
+.eco_page02title02_img01:hover .eco_page02title02_word {
 
     transform: translateY(-300px);
-    /*animation-play-state: running;*/
 }
 
-.eco_page02title02_img2_01:hover .eco_page02title02_word {
-
-    transform: translateY(-300px);
-    /*animation-play-state: running;*/
-}
-
-.eco_page02title02_img3_01:hover .eco_page02title02_word {
-
-    transform: translateY(-300px);
-    /*animation-play-state: running;*/
-}
-
-.eco_page02title02_img4_01:hover .eco_page02title02_word {
-
-    transform: translateY(-300px);
-    /*animation-play-state: running;*/
-}
-
-.eco_page02title02_img5_01:hover .eco_page02title02_word {
-
-    transform: translateY(-300px);
-    /*animation-play-state: running;*/
-}
-
-.eco_page02title02_img6_01:hover .eco_page02title02_word {
-    transform: translateY(-300px);
-    /*animation-play-state: running;*/
-}
-
-.container .col-md-4 {
-    padding-left: 0px;
-    padding-right: 0px;
-}
 
 .section-2 .box {
     position: absolute;

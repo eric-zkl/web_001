@@ -9,7 +9,7 @@ body {
   overflow: hidden;
 }
 
-.selector {
+.sci_selector {
   position: relative;
   /*right: 0%;*/
   /*top: 50%;*/
@@ -18,12 +18,12 @@ body {
   margin: 50% auto;
 }
 
-.selector, .selector button {
+.sci_selector, .selector button {
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
 }
 
-.selector button {
+.sci_selector button {
   position: relative;
   width: 100%;
   height: 100%;
@@ -38,15 +38,15 @@ body {
   transition: all .1s;
 }
 
-.selector button:hover {
+.sci_selector button:hover {
   background: #3071a9;
 }
 
-.selector button:focus {
+.sci_selector button:focus {
   outline: none;
 }
 
-.selector ul {
+.sci_selector ul {
   position: absolute;
   list-style: none;
   padding: 0;
@@ -57,7 +57,7 @@ body {
   left: -20px;
 }
 
-.selector li {
+.sci_selector li {
   position: absolute;
   width: 0;
   height: 100%;
@@ -66,11 +66,11 @@ body {
   transition: all 0.8s ease-in-out;
 }
 
-.selector li input {
+.sci_selector li input {
   display: none;
 }
 
-.selector li input + label {
+.sci_selector li input + label {
   position: absolute;
   left: 50%;
   bottom: 100%;
@@ -86,22 +86,23 @@ body {
   cursor: pointer;
   box-shadow: none;
   transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
+  max-width: none;
 }
 
-.selector li input + label:hover {
+.sci_selector li input + label:hover {
   background: #f0f0f0;
 }
 
-.selector li input:checked + label {
+.sci_selector li input:checked + label {
   background: #5cb85c;
   color: white;
 }
 
-.selector li input:checked + label:hover {
+.sci_selector li input:checked + label:hover {
   background: #449d44;
 }
 
-.selector.open li input + label {
+.sci_selector.open li input + label {
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -111,7 +112,7 @@ body {
 }
 .sci_video{
   width: 100%;
-  margin-top: 50%;
+  margin-top: 20vh;
 }
 .col-md-8{
   width: 66.66666%;
@@ -121,4 +122,17 @@ body {
 }
 .col-md-4 ,.col-md-8{
   float: left;
+}
+.sci_page02_img{
+  position: absolute;
+  left: 0%;
+  top: 0;
+  transform: scale(0);
+  /*width: 0px;*/
+  transition: 2s;
+  width: 100%;
+  height: 80vh;
+  margin-top: 10vh;
+  /*background: url("../other/img3.jpg") no-repeat ;*/
+  background-size: 100% 100%;
 }

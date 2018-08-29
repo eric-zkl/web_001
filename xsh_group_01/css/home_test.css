@@ -1,0 +1,23 @@
+.home_test_title02{
+    display: flex;
+    margin: 0px auto;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+
+}
+.home_test_title03{
+    display: flex;
+    margin: 0px auto;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.home_test_button{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 1%;
+}
