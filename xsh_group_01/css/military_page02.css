@@ -116,7 +116,8 @@ a,img{border:0;text-decoration:none;}
     transition:all .6s;
     -moz-transition:all .6s;
     -webkit-transition:all .6s;
-    -o-transition:all .6s
+    -o-transition:all .6s;
+
 }
 .solution-list ul li.active p.solution-title{top:158px;font-size:22px}
 .solution-list ul li.active p.solution-intro{top:230px;opacity:1;filter:alpha(opacity=100)}
