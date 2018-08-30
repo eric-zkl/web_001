@@ -136,3 +136,22 @@ body {
   /*background: url("../other/img3.jpg") no-repeat ;*/
   background-size: 100% 100%;
 }
+.sci_page02_img{
+padding-top: 35%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.sci_page02_img p{
+  text-indent:2em;
+  color: chartreuse;
+  margin: -10px;
+}
+.sci_page02_img b{
+  margin: 10px;
+  width: 100%;
+  color: chartreuse;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
