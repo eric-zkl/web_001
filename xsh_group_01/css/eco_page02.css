@@ -1,9 +1,12 @@
-#eco_page02title01 h2 {
+#eco_page02title01{
     width: 90%;
     position: absolute;
     left: 5%;
     font-size: 20px;
     text-align: center;
+    margin: 20px;
+    color: rgb(107, 84, 54);
+
 }
 .eco_page02title02_img1_01{
     height: 200px;
@@ -88,7 +91,7 @@
 }
 
 .eco_page02title02_img01:hover .eco_page02title02_word {
-    transform: translateY(-250px);
+    transform: translateY(-220px);
 }
 
 
