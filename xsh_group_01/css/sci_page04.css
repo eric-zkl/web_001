@@ -41,7 +41,7 @@
     height: 80px;
     border-radius: 50%;
     background:url("../img/sci_page04_img03.png") no-repeat center center;
-    background-size: 100%;
+    background-size: 120%;
     transition: all 200ms ease-in;
     float: left;
     margin-left: 40px;
@@ -108,4 +108,18 @@
     bottom: 0px;
     text-align: center;
     font-size: 20px;
+}
+.sci_page04_slideshow{
+    width: 2500px;
+    transition: 2s;
+}
+.sci_page04_img{
+    width: 30vw;
+    float: left;
+    margin-right: 0.8vw;
+}
+.sci_page04_container{
+    width: 91.6vw;
+    overflow: hidden;
+    margin: 0px auto;
 }
