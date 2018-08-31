@@ -1,3 +1,8 @@
+.home_test_bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../other/201.jpeg);
+}
 .home_test_title02{
     display: flex;
     margin: 0px auto;
@@ -32,4 +37,16 @@
 .home_test_button p{
     margin-top: 0px;
     color: white;
+}
+.home_test_title01 h2{
+    padding-top: 20px;
+    margin-top: 0px;
+    color: yellow;
+    margin-bottom: 10px;
+}
+.home_test_title01 span{
+    color: yellow;
+}
+.home_test_title01 p{
+    color: yellow;
 }
