@@ -1,0 +1,39 @@
+.section-1 .home_test_title02{
+    display: flex;
+    margin: 0px auto;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+
+}
+.section-1 .home_test_title03{
+    display: flex;
+    margin: 0px auto;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.section-1 .home_test_button{
+    width: 100px;
+    height: 100px;
+    /*border: 1px solid black;*/
+    float: left;
+    margin: 1%;
+    background-image: url("../img/basic_page01_bha.png");
+    background-size: 100% 100%;
+    text-align: center;
+}
+.section-1 .home_test_button img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+}
+.section-1 .home_test_button p{
+    margin-top: 0px;
+    color: white;
+}
+.section-1{
+    background: url("../img/dpm_img/dpm_page01_bg.png") no-repeat ;
+    /*background-size: 100% 100%;*/
+}

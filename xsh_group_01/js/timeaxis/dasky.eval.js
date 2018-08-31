@@ -127,6 +127,7 @@ function(a) {
 	}
 } (jQuery),
 function(a) {
+	return;
 	function d(b) {
 		var c = b || window.event,
 		d = [].slice.call(arguments, 1),
