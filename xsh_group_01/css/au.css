@@ -115,13 +115,13 @@
     width:35px;
     height: 35px;
     display: block;
-    background:  url(../other/au/img-spr.png)no-repeat -2px -90px;
+    background:  url(../img/au/img-spr.png)no-repeat -2px -90px;
 }
 .social-ic li a i.ic {
-    background: url(../other/au/img-spr.png)no-repeat -63px -90px;
+    background: url(../img/au/img-spr.png)no-repeat -63px -90px;
 }
 .social-ic li a i.ic1 {
-    background: url(../other/au/img-spr.png)no-repeat -123px -90px;
+    background: url(../img/au/img-spr.png)no-repeat -123px -90px;
 }
 /*--//team--*/
 
@@ -202,7 +202,7 @@
     width: 80px;
     height: 80px;
     display: block;
-    background: url(../other/au/img-spr.png)no-repeat 18px 13px ;
+    background: url(../img/au/img-spr.png)no-repeat 18px 13px ;
     -webkit-transform: rotate(-45deg) translate3d(0, 0, 0);
     -moz-transform: rotate(-45deg) translate3d(0, 0, 0);
     -ms-transform: rotate(-45deg) translate3d(0, 0, 0);
@@ -210,13 +210,13 @@
     transform: rotate(-45deg) translate3d(0, 0, 0);
 }
 .social li a i.icon {
-    background: url(../other/au/img-spr.png)no-repeat -66px 13px;
+    background: url(../img/au/img-spr.png)no-repeat -66px 13px;
 }
 .social li a i.icon1 {
-    background: url(../other/au/img-spr.png)no-repeat -161px 13px;
+    background: url(../img/au/img-spr.png)no-repeat -161px 13px;
 }
 .social li a i.icon2 {
-    background: url(../other/au/img-spr.png)no-repeat -251px 13px;
+    background: url(../img/au/img-spr.png)no-repeat -251px 13px;
 }
 
 .copy{
@@ -257,7 +257,7 @@ p.aufooter-grid a:hover{
 }
 .test {
     padding: 6em 0;
-    background: url(../other/au/tt.jpg) no-repeat center;
+    background: url(../img/au/tt.jpg) no-repeat center;
     width: 100%;
     min-height: 402px;
     display: block;

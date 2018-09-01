@@ -1,6 +1,5 @@
 .sci_page04title01{
     text-align: center;
-    font-size: 20px;
 }
 .sci_page04title01_img1{
     width: 80px;
@@ -169,7 +168,4 @@
 }
 .sci_page04_img015{
     background: url(../img/sci_page04_img15.jpg) no-repeat center center;
-}
-.sci_page04_head{
-    color: #6b5436;
 }

@@ -1,3 +1,12 @@
+.ctz_page02title01{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    color: rgb(107, 84, 54);
+}
 .ctz_page02_title01{
     width: 90%;
 }
@@ -219,8 +228,5 @@
 .inner p{
     color: white;
 }
-.head{
-    color: #6b5436;
-    text-align: center;
-}
+
 

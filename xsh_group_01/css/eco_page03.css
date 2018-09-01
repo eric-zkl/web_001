@@ -1,11 +1,10 @@
 
-.eco_page03title01 h2{
+.eco_page03title01{
     width: 90%;
     position: absolute;
     left: 5%;
-    font-size: 20px;
     text-align: center;
-    border-bottom: solid 2px black;
+    margin: 20px;
 }
 .button{
     background-color: darkorange;
