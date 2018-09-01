@@ -30,3 +30,27 @@ $('.sci_selector button').click(function(e) {
 });
 
 setTimeout(function() { toggleOptions('.sci_selector'); }, 100);
+
+//设置点击事件
+var sci_video = document.getElementById("sci_video");
+
+var flag;//定义一个标记位
+//    设置图片出现的事件
+function showImage(img_name,index) {
+    if(flag){
+        flag.style.transform="scale(0)";
+    }
+    var sci_page02_img = document.getElementById("sci_page02_img"+index);
+    flag=sci_page02_img;
+
+    sci_video.style.display = "none";
+    sci_page02_img.style.backgroundImage = "url(../img/"+img_name+")";
+    sci_page02_img.style.transform = "scale(1)";
+}
+function playPause() {
+    if (sci_video.play()) {
+        sci_video.pause();
+    } else {
+        sci_video.play();
+    }
+}
