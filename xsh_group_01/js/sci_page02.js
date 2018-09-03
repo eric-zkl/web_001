@@ -54,3 +54,10 @@ function playPause() {
         sci_video.play();
     }
 }
+
+function showVideo(){
+   $(".sci_page02_img").css({backgroundImage:"none"});
+    $(".sci_page02_img").css({transform:"scale(0)"});
+    $("#sci_video").css({display:"block"});
+}
+
