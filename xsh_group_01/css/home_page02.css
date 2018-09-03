@@ -79,11 +79,10 @@ body {
     box-shadow: 0 0 0 50vmax rgba(250, 251, 255, 0.7) inset;
 }
 .slider::before {
-    -webkit-filter: blur(3px); /* Chrome, Opera */
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);
-    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+    -webkit-filter: blur(12px); /* Chrome, Opera */
+    -moz-filter: blur(12px);
+    -ms-filter: blur(12px);
+    filter: blur(12px);
     background-image: var(--img-prev);
 }
 .slider::after {
@@ -109,6 +108,7 @@ body {
 }
 .slider__images {
     overflow: hidden;
+    border-radius: 10px;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -231,6 +231,7 @@ body {
 }
 .slider__text-item-head {
     top: -0.5em;
+    border-radius: 20px;
     -webkit-transform: translateZ(3em);
     transform: translateZ(3em);
     -webkit-clip-path: polygon(0 0, 0.5em 100%, 100% 100%, calc(100% - .3em) 0.3em);
@@ -240,6 +241,7 @@ body {
     bottom: 0;
     right: 0;
     max-width: 75%;
+    border-radius: 20px;
     min-width: -webkit-min-content;
     min-width: -moz-min-content;
     min-width: min-content;
