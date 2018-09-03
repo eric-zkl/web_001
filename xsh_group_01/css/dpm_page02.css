@@ -647,6 +647,11 @@ figure.effect-bubba:hover p {
         height: 533px;
     }
 }
+@media (min-width: 1400px) {
+    .tm-main-content>*{
+        height: 600px;
+    }
+}
 .tm-main-content{
     height: 533px;
     overflow: hidden;
