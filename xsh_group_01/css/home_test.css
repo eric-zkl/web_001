@@ -4,7 +4,7 @@
     -webkit-align-items: center;
     align-items: center;
     justify-content: center;
-    margin-top: 8%;
+    margin-top: 2%;
 
 }
 .home_test_title03{
@@ -31,49 +31,60 @@
 }
 .home_test_button p{
     margin-top: 0px;
-    color: white;
+    color: black;
+}
+.home_test_title01{
+    padding-top: 10vh;
 }
 .home_test_title01 h2{
     padding-top: 20px;
     margin-top: 0px;
-    color: yellow;
+    color: #DF3A01;
     margin-bottom: 10px;
 }
 .home_test_title01 span{
-    color: yellow;
-}
-.home_test_title01 p{
-    color: yellow;
+    color: #DF3A01;
 }
 .sci_page01_bg{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/sci_page01_bg.jpg);
+    /*background-image: url(../img/sci_page01_bg.jpg);*/
+    background-image: url(../img/dpm_page01_bg.jpg);
     background-size: 100%;
 }
 
 .military_page01_bg{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/military_page01_bg.jpg);
+    /*background-image: url(../img/military_page01_bg.jpg);*/
+    background-image: url(../img/dpm_page01_bg.jpg);
     background-size: 100%;
 }
 
 .dpm_page01_bg{
     width: 100vw;
     height: 100vh;
+    /*background-image: url(../img/dpm_page01_bg.jpg);*/
     background-image: url(../img/dpm_page01_bg.jpg);
     background-size: 100%;
 }
  .pb_page01_bg{
      width: 100vw;
      height: 100vh;
-     background-image: url(../img/pb_page01_bg.jpg);
+     /*background-image: url(../img/pb_page01_bg.jpg);*/
+     background-image: url(../img/dpm_page01_bg.jpg);
      background-size: 100%;
  }
 .eco_page01_bg{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/eco_page01_bg.jpg);
+    /*background-image: url(../img/eco_page01_bg.jpg);*/
+    background-image: url(../img/dpm_page01_bg.jpg);
+    background-size: 100%;
+}
+.ctz_page01_bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/dpm_page01_bg.jpg);
     background-size: 100%;
 }

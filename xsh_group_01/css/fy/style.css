@@ -579,9 +579,9 @@ border-bottom-left-radius: 0px;
 	
 	/* =WordPress Core
 -------------------------------------------------------------- */
-#fb7 .fb7-page-book .alignnone,.#fb7-about .alignnone {
-    margin: 5px 20px 20px 0;
-}
+/*#fb7 .fb7-page-book .alignnone,.#fb7-about .alignnone {*/
+    /*margin: 5px 20px 20px 0;*/
+/*}*/
 
 #fb7 .fb7-page-book.aligncenter,.fb7-page-book div.aligncenter,#fb7-about.aligncenter,#fb7-about div.aligncenter {
     display: block;
@@ -701,9 +701,9 @@ border-bottom-left-radius: 0px;
 	
 	 	
 	    /* background flipbook */
-		#fb7 .fb7-bcg-book{
-			background-image:url(http://www.preview.flashmaniac.net/jquery_flipbook_v7_wp/wp-content/plugins/jquery_classy_flipbook/flipbook/img/bcg.jpg);
-		}
+        /*#fb7 .fb7-bcg-book{*/
+			/*background-image:url(http://www.preview.flashmaniac.net/jquery_flipbook_v7_wp/wp-content/plugins/jquery_classy_flipbook/flipbook/img/bcg.jpg);*/
+        /*}*/
 		
 		
 		

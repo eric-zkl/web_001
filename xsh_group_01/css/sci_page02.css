@@ -145,13 +145,13 @@ body {
 }
 .sci_page02_img p{
   text-indent:2em;
-  color: chartreuse;
+  color: 	#FF0000;
   margin: -10px;
 }
 .sci_page02_img b{
   margin: 10px;
   width: 100%;
-  color: chartreuse;
+  color: 	#FF0000;
   display: flex;
   -webkit-align-items: center;
   align-items: center;

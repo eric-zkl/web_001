@@ -92,7 +92,7 @@
                 <label for='7'>AI智能</label>
             </li>
             <li>
-                <input id='8' type='radio' name="sci_item">
+                <input id='8' type='radio' name="sci_item" onclick="showVideo()">
                 <label for='8'>科技探索</label>
             </li>
         </ul>
@@ -100,6 +100,7 @@
     </div>
 </div>
 <script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="../js/sci_page02.js"></script>
 </body>
 <script type="text/javascript">
@@ -118,6 +119,7 @@
         sci_page02_img.style.backgroundImage = "url(../img/"+img_name+")";
         sci_page02_img.style.transform = "scale(1)";
     }
+
     function playPause() {
         if (sci_video.play()) {
             sci_video.pause();
