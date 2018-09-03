@@ -113,6 +113,7 @@ body {
 .sci_video{
   width: 100%;
   margin-top: 20vh;
+  transition: 2s;
 }
 .col-md-8{
   width: 66.66666%;
@@ -156,4 +157,7 @@ body {
   -webkit-align-items: center;
   align-items: center;
   justify-content: center;
+}
+.sci_video{
+
 }

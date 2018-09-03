@@ -50,38 +50,38 @@
 .sci_page01_bg{
     width: 100vw;
     height: 100vh;
-    /*background-image: url(../img/sci_page01_bg.jpg);*/
-    background-image: url(../img/dpm_page01_bg.jpg);
+    background-image: url(../img/sci_page01_bg.jpg);
+    /*background-image: url(../img/dpm_page01_bg.jpg);*/
     background-size: 100%;
 }
 
 .military_page01_bg{
     width: 100vw;
     height: 100vh;
-    /*background-image: url(../img/military_page01_bg.jpg);*/
-    background-image: url(../img/dpm_page01_bg.jpg);
+    background-image: url(../img/military_page01_bg.jpg);
+    /*background-image: url(../img/dpm_page01_bg.jpg);*/
     background-size: 100%;
 }
 
 .dpm_page01_bg{
     width: 100vw;
     height: 100vh;
-    /*background-image: url(../img/dpm_page01_bg.jpg);*/
     background-image: url(../img/dpm_page01_bg.jpg);
+    /*background-image: url(../img/dpm_page01_bg.jpg);*/
     background-size: 100%;
 }
  .pb_page01_bg{
      width: 100vw;
      height: 100vh;
-     /*background-image: url(../img/pb_page01_bg.jpg);*/
-     background-image: url(../img/dpm_page01_bg.jpg);
+     background-image: url(../img/pb_page01_bg.jpg);
+     /*background-image: url(../img/dpm_page01_bg.jpg);*/
      background-size: 100%;
  }
 .eco_page01_bg{
     width: 100vw;
     height: 100vh;
-    /*background-image: url(../img/eco_page01_bg.jpg);*/
-    background-image: url(../img/dpm_page01_bg.jpg);
+    background-image: url(../img/eco_page01_bg.jpg);
+    /*background-image: url(../img/dpm_page01_bg.jpg);*/
     background-size: 100%;
 }
 .ctz_page01_bg{

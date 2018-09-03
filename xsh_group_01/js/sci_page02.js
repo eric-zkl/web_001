@@ -55,9 +55,39 @@ function playPause() {
     }
 }
 
-function showVideo(){
-   $(".sci_page02_img").css({backgroundImage:"none"});
-    $(".sci_page02_img").css({transform:"scale(0)"});
-    $("#sci_video").css({display:"block"});
+var sci_video = document.getElementById("sci_video");
+
+var flag;//定义一个标记位
+//    设置图片出现的事件
+function showImage(img_name,index) {
+    if(flag){
+        flag.style.transform="scale(0)";
+
+    }
+    var sci_page02_img = document.getElementById("sci_page02_img"+index);
+    flag=sci_page02_img;
+    sci_video.style.transform="scale(0)";
+    sci_video.pause();
+    sci_page02_img.style.backgroundImage = "url(../img/"+img_name+")";
+    sci_page02_img.style.transform = "scale(1)";
 }
+
+function playPause() {
+    if (sci_video.paused) {
+        sci_video.play();
+    } else {
+        sci_video.pause();
+    }
+}
+function showVideo(){
+    sci_video.style.transform="scale(1)";
+    if(flag){
+        flag.style.transform="scale(0)";
+    }
+}
+//function showVideo(){
+//   $(".sci_page02_img").css({backgroundImage:"none"});
+//    $(".sci_page02_img").css({transform:"scale(0)"});
+//    $("#sci_video").css({display:"block"});
+//}
 

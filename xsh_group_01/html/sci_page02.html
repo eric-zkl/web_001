@@ -92,7 +92,7 @@
                 <label for='7'>AI智能</label>
             </li>
             <li>
-                <input id='8' type='radio' name="sci_item" onclick="showVideo()">
+                <input id='8' type='radio' name="sci_item" onclick="playPause();showVideo()">
                 <label for='8'>科技探索</label>
             </li>
         </ul>
@@ -111,20 +111,27 @@
     function showImage(img_name,index) {
         if(flag){
             flag.style.transform="scale(0)";
+
         }
         var sci_page02_img = document.getElementById("sci_page02_img"+index);
         flag=sci_page02_img;
-
-        sci_video.style.display = "none";
+        sci_video.style.transform="scale(0)";
+        sci_video.pause();
         sci_page02_img.style.backgroundImage = "url(../img/"+img_name+")";
         sci_page02_img.style.transform = "scale(1)";
     }
 
     function playPause() {
-        if (sci_video.play()) {
-            sci_video.pause();
-        } else {
+        if (sci_video.paused) {
             sci_video.play();
+        } else {
+            sci_video.pause();
+        }
+    }
+    function showVideo(){
+        sci_video.style.transform="scale(1)";
+        if(flag){
+            flag.style.transform="scale(0)";
         }
     }
 </script>
