@@ -21,6 +21,7 @@
     height: 100%;
     position: relative;
     display: block;
+    bottom: 60px;
 }
 .col-grid-right img, .col-1-bottom img{
     display: block;
