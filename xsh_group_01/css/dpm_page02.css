@@ -308,7 +308,7 @@ body .section-3{
 
 .tm-flex > div { flex: 1 1 auto; }
 .tm-box-pad { padding: 35px 20px; }
-.tm-services-img { margin: 0 auto; }
+
 
 /*---------------*/
 /*http://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/*/
@@ -338,6 +338,9 @@ body .section-3{
     position: relative;
     display: block;
     max-width: 100%;
+    max-height: 100%;
+    /*height: 254px;*/
+    /*width: 254px;*/
     opacity: 0.8;
 }
 
@@ -493,7 +496,7 @@ figure.effect-bubba:hover p {
         -ms-flex-align: stretch;
         align-items: stretch;
         position: absolute;
-        bottom: -63px;
+        bottom: 0px;
         left: 0;
         right: 0;
     }
@@ -519,9 +522,12 @@ figure.effect-bubba:hover p {
     }
 
     .tm-box-pad { padding: 45px 40px; }
-    .tm-services-img { width: 300px; }
     .tm-services { overflow: auto; }
-    .tm-services-img-container { float: left; }
+    .tm-services-img-container {
+        float: left;
+        width: 300px;
+        height: 100%;
+    }
     .tm-services-description-container { margin-left: 300px; }
 
     .grid figure {
@@ -556,7 +562,7 @@ figure.effect-bubba:hover p {
     .tm-main-content { margin-left: 290px; }
     .tm-welcome-box { max-width: 340px; }
     .tm-welcome-text {
-        height: 520px;
+        height: 350px;
         padding: 30px 20px;
     }
 
@@ -612,7 +618,7 @@ figure.effect-bubba:hover p {
     .grid figure {
         width: 280px;
         height: 280px;
-        margin: 15px;
+        margin: 18px;
         margin-left: 5vw;
     }
 
@@ -635,10 +641,51 @@ figure.effect-bubba:hover p {
 }
 /*使一开始只显示一个div*/
 .tm-main-content>*{
-    height: 100vh;
     display: none;
 }
+@media (min-width: 1200px) {
+    .tm-main-content>*{
+        height: 533px;
+    }
+
+}
+@media (min-width: 1400px) {
+    .tm-main-content{
+        height: 600px;
+    }
+    .tm-main-content>*{
+        height: 600px;
+    }
+}
 .tm-main-content{
-    height: 100vh;
+    /*height: 533px;*/
     overflow: hidden;
+}
+.dmp_page04_text{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    float: left;
+}
+.dmp_page04_text h2{
+    text-align: center;
+    font-weight: bold;
+}
+.dmp_page04_bgcolor_purple{
+    background-color: #993366;
+}
+.dmp_page04_bgcolor_purple h2,.dmp_page04_bgcolor_purple p{
+    color: white;
+}
+.tm-services-img{
+    max-height: 33%;
+    max-width: 100%;
+    height: 33%;
+    width: 100%;
+    margin-bottom: 1%;
+}
+#welcome{
+    display: block;
 }
