@@ -7,11 +7,12 @@
     margin: 20px;
 }
 .button{
-    background-color: darkorange;
+    background-color: #bd0500;
     height: 50px;
     margin-bottom: 20px;
     border: 0px none;
     border-radius: 5px;
+    color: white;
 }
 .chart{
     border: 1px solid gainsboro;
