@@ -5,7 +5,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../img/sci_page04_img01.png") no-repeat center center;
+    background:url("../img/sci/sci_page04_img01.png") no-repeat center center;
     background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
@@ -22,7 +22,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../img/sci_page04_img02.png") no-repeat center center;
+    background:url("../img/sci/sci_page04_img02.png") no-repeat center center;
     background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
@@ -39,7 +39,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../img/sci_page04_img03.png") no-repeat center center;
+    background:url("../img/sci/sci_page04_img03.png") no-repeat center center;
     background-size: 120%;
     transition: all 200ms ease-in;
     float: left;
@@ -56,7 +56,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../img/sci_page04_img04.png") no-repeat center center;
+    background:url("../img/sci/sci_page04_img04.png") no-repeat center center;
     background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
@@ -73,7 +73,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:url("../img/sci_page04_img05.png") no-repeat center center;
+    background:url("../img/sci/sci_page04_img05.png") no-repeat center center;
     background-size: 100%;
     transition: all 200ms ease-in;
     float: left;
@@ -125,47 +125,47 @@
     margin: 0px auto;
 }
 .sci_page04_img001{
-    background: url(../img/sci_page04_img1.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img1.jpg) no-repeat center center;
 }
 .sci_page04_img002{
-    background: url(../img/sci_page04_img2.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img2.jpg) no-repeat center center;
 }
 .sci_page04_img003{
-    background: url(../img/sci_page04_img3.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img3.jpg) no-repeat center center;
 }
 .sci_page04_img004{
-    background: url(../img/sci_page04_img4.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img4.jpg) no-repeat center center;
 }
 .sci_page04_img005{
-    background: url(../img/sci_page04_img5.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img5.jpg) no-repeat center center;
 }
 .sci_page04_img006{
-    background: url(../img/sci_page04_img6.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img6.jpg) no-repeat center center;
 }
 .sci_page04_img007{
-    background: url(../img/sci_page04_img7.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img7.jpg) no-repeat center center;
 }
 .sci_page04_img008{
-    background: url(../img/sci_page04_img8.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img8.jpg) no-repeat center center;
 }
 .sci_page04_img009{
-    background: url(../img/sci_page04_img9.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img9.jpg) no-repeat center center;
 }
 .sci_page04_img010{
-    background: url(../img/sci_page04_img10.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img10.jpg) no-repeat center center;
 }
 .sci_page04_img011{
-    background: url(../img/sci_page04_img11.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img11.jpg) no-repeat center center;
 }
 .sci_page04_img012{
-    background: url(../img/sci_page04_img12.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img12.jpg) no-repeat center center;
 }
 .sci_page04_img013{
-    background: url(../img/sci_page04_img13.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img13.jpg) no-repeat center center;
 }
 .sci_page04_img014{
-    background: url(../img/sci_page04_img14.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img14.jpg) no-repeat center center;
 }
 .sci_page04_img015{
-    background: url(../img/sci_page04_img15.jpg) no-repeat center center;
+    background: url(../img/sci/sci_page04_img15.jpg) no-repeat center center;
 }
