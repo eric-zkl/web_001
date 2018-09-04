@@ -228,5 +228,8 @@
 .inner p{
     color: white;
 }
-
+ /*Òþ²ØÊ±¼ä*/
+ .news-grids span{
+     opacity: 0;
+ }
 
