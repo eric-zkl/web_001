@@ -4613,9 +4613,9 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 0px 15px;
     font-size: 18px;
-    line-height: 20px
+    line-height: 20px;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {

@@ -117,3 +117,6 @@
     -ms-filter: blur(10px);
     filter: blur(10px);
 }
+a:hover{
+    text-decoration: none;
+}
