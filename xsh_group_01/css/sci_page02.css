@@ -158,6 +158,8 @@ body {
   align-items: center;
   justify-content: center;
 }
-.sci_video{
 
+#icon_video{
+  font-size: 30px;
+  line-height: 80px;
 }
