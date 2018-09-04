@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link href="../css/military_page01.css" rel="stylesheet">
+    <!-- 设置页面logo-->
+    <link rel="icon" href="../img/titlelogo.png">
+    <title>军事</title>
+    <!-- 加载通用样式-->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/basic.css" rel="stylesheet" type="text/css">
-    <!-- 加载样式表 -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <!-- 加载各个分页样式 -->
+    <link href="../css/military_page01.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/military_page02.css" type="text/css">
     <link rel="stylesheet" href="../css/ctz_page02.css">
     <link rel="stylesheet" href="../css/home_test.css"/>
@@ -50,6 +52,7 @@
 
 <!-- 代码 开始 -->
 <section class="section-wrap" >
+    <!-- 分页1-->
     <div class="section section-0 military_page01_bg">
         <div class="home_test_bg">
             <div class="home_test_title01" style="text-align: center">
@@ -104,7 +107,7 @@
             </div>
         </div>
     </div>
-
+<!--分页2-->
     <div class="section section-2">
         <div class="head" style="text-align: center;padding-top: 5vh">
             <h3 class="title" style="font-size: 32px;position: relative;font-weight: normal;color: #BD362F;height: 45px;margin: 0px;">军事要闻</h3>
@@ -157,6 +160,7 @@
         </div>
 
     </div>
+    <!-- 分页3-->
     <div class="section section-3">
         <div class="container" id="clear" style="width: 90%">
             <div class="head" style="text-align: center;padding-top: 5vh">
@@ -291,6 +295,7 @@
             </div>
         </div>
     </div>
+    <!-- 分页4-->
     <div class="section section-4">
         <div id="dasky">
             <div class="step year">
@@ -520,6 +525,7 @@
     </div>
 
 </section>
+<!--右边的小圆点-->
 <ul class="section-btn">
     <li class="on"></li>
     <li></li>
@@ -527,40 +533,20 @@
     <li></li>
 
 </ul>
+<!--底部的圆形按钮，已隐藏-->
 <div class="arrow">&laquo;</div>
-
+<!--引入通用js文件-->
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/basic.js"></script>
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-<!--横向时间轴-->
+<!--引入横向时间轴js文件-->
 <script src="../js/timeaxis/jmpress.min.js"></script>
 <script src="../js/timeaxis/dasky.eval.js"></script>
 <script type="text/javascript">
     $(function(){$('#dasky').Dasky()});
 </script>
+<!--引入各个分页的js文件-->
+<script type="text/javascript" src="../js/military_page01.js"></script>
 
-<script type="text/javascript">
-    $(document).ready(function(){
-
-        var b = $("#solutionList li");
-        b.mouseover(function() {
-            var e = $(this);
-            b.removeClass("active");
-            e.addClass("active")
-        });
-
-    });
-</script>
-
-<script type="text/javascript">
-    var temp;
-    function test(obj){
-        if(temp){
-            temp.style.display="none";
-        }
-        temp=document.getElementById(obj);
-        temp.style.display="block";
-    }
-</script>
 </body>
 </html>
