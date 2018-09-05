@@ -68,7 +68,7 @@ function showImage(img_name,index) {
     flag=sci_page02_img;
     sci_video.style.transform="scale(0)";
     sci_video.pause();
-    sci_page02_img.style.backgroundImage = "url(../img/"+img_name+")";
+    sci_page02_img.style.backgroundImage = "url(../img/sci/"+img_name+")";
     sci_page02_img.style.transform = "scale(1)";
 }
 
